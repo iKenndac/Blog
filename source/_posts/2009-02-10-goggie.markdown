@@ -1,0 +1,17 @@
+---
+author: Daniel Kennett
+date: '2009-02-10 22:45:57'
+layout: post
+slug: goggie
+status: publish
+title: Goggie!
+wordpress_id: '264'
+categories:
+- General
+---
+
+Sharp readers may have noticed him in my previous post, but I've managed
+to work my life into such a state that I can finally care for a dog.
+Chester joined us a few weeks ago from a rescue home, and has settled in
+great.
+![Chester](http://danielkennett.org/wp-content/uploads/2009/02/img_4465.jpg "Chester")

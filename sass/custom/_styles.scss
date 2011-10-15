@@ -1,0 +1,45 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+html {
+	background: #042335 url('/octo/images/line-tile.png?1318700504') top left;
+}
+
+img.header-logo {
+	float: right;
+	position: relative;
+	right: 0px;
+	bottom: -50px;
+	z-index: 100;
+}
+
+body > header {
+	padding-bottom: 0.0em;
+	padding-top: 0.0em;
+	background: none;
+}
+
+body > nav li {
+	position: relative;
+	z-index: 150;
+}
+
+body > nav {
+	@include border-top-radius(.4em);
+}
+
+body > nav ul.subscription {
+	display: none;
+}
+
+body > nav form {
+	display: none;
+}
+
+#main ol {
+	margin-left: 2.0em;
+}
+
+#main ul {
+	margin-left: 2.0em;
+}

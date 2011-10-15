@@ -2,14 +2,14 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://danielkennett.org/octo
+title: Daniel Kennett
+subtitle:
+author: Daniel Kennett
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /octo/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -19,13 +19,13 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
-permalink: /blog/:year/:month/:day/:title/
+root: /octo
+permalink: /blog/:year/:month/:title/
 source: source
-destination: public
+destination: public/octo
 plugins: plugins
 code_dir: downloads/code
-category_dir: blog/categories
+category_dir: blog/category
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
 
@@ -40,7 +40,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
-# blog_index_asides:
+blog_index_asides: [custom/asides/about.html, asides/recent_posts.html, asides/github.html, asides/twitter.html]
 # post_asides:
 # page_asides:
 
@@ -49,13 +49,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: iKenndac
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: iKenndac
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true

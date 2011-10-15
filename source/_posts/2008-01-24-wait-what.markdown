@@ -1,0 +1,14 @@
+---
+author: Daniel Kennett
+date: '2008-01-24 11:13:45'
+layout: post
+slug: wait-what
+status: publish
+title: '"Wait.... what?"'
+wordpress_id: '37'
+categories:
+- Programming/Work
+---
+
+Heh, you know you've done something pretty bad when the compiler just
+gives up on a simple instance declaration! ![Compiler Confusion](http://danielkennett.org/pictures/compilerconfusion.png)

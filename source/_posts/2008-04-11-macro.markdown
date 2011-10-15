@@ -1,0 +1,19 @@
+---
+author: Daniel Kennett
+date: '2008-04-11 20:13:07'
+layout: post
+slug: macro
+status: publish
+title: Macro Lens Tomfoolery
+wordpress_id: '97'
+categories:
+- Cars, Models &amp; Gadgets
+---
+
+[![image](http://danielkennett.org/images/photocast_sub.png)](http://danielkennett.org/photocasts/c30macro/index.rss)
+Boredom + new macro lens + new car = [![C30 Badge](http://danielkennett.org/wp-content/uploads/2008/04/img_3820.jpg)](http://danielkennett.org/wp-content/uploads/2008/04/img_3820.jpg "C30 Badge")
+[![Volvo Badge](http://danielkennett.org/wp-content/uploads/2008/04/img_3821.jpg)](http://danielkennett.org/wp-content/uploads/2008/04/img_3821.jpg "Volvo Badge")
+Read more for more photos. [![Rear Cluster](http://danielkennett.org/wp-content/uploads/2008/04/img_3823.jpg)](http://danielkennett.org/wp-content/uploads/2008/04/img_3823.jpg "Rear Cluster")
+[![Dash](http://danielkennett.org/wp-content/uploads/2008/04/img_3824.jpg)](http://danielkennett.org/wp-content/uploads/2008/04/img_3824.jpg "Dash")
+[![RDesign](http://danielkennett.org/wp-content/uploads/2008/04/img_3826.jpg)](http://danielkennett.org/wp-content/uploads/2008/04/img_3826.jpg "RDesign")
+[![Indicator Stalk](http://danielkennett.org/wp-content/uploads/2008/04/img_3827.jpg)](http://danielkennett.org/wp-content/uploads/2008/04/img_3827.jpg "Indicator Stalk")

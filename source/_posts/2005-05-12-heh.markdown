@@ -1,0 +1,13 @@
+---
+author: Daniel Kennett
+date: '2005-05-12 15:37:24'
+layout: post
+slug: heh
+status: publish
+title: Heh...
+wordpress_id: '12'
+categories:
+- General
+---
+
+![image](http://danielkennett.org/pictures/haxor.jpg)
