@@ -10,11 +10,11 @@ categories:
 - Programming/Work
 ---
 
-<img style="padding-right:15px; padding-bottom:5px;" src="http://danielkennett.org/wp-content/uploads/2009/11/ClarusiPhone128.png" alt="ClarusiPhone128.png" border="0" width="128" height="128" align="left" />Normally, I write a "Postmortem" <a href="http://www.kennettnet.co.uk/blog/comments/clarus-1.0-postmortem/">blog</a> <a href="http://www.kennettnet.co.uk/blog/comments/music_rescue_4.0_postmortem/">post</a> after each product I ship. However, recently I got the chance to give a talk at <a href="http://cocoaheads.org/uk/Swindon/index.html">CocoaHeads Swindon</a>, and chose to talk about my trials and tribulations when writing <a href="http://itunes.com/app/Clarus">Clarus for iPhone</a> (iTunes Link). The other day it struck me that this actually turned out to be a great postmortem, so instead of writing a blog post I sat at my computer and recorded a video of my slides and commentary. 
+<img style="padding-right:15px; padding-bottom:5px;" src="http://danielkennett.org/pictures/for_posts/2009/11/ClarusiPhone128.png" alt="ClarusiPhone128.png" border="0" width="128" height="128" align="left" />Normally, I write a "Postmortem" <a href="http://www.kennettnet.co.uk/blog/comments/clarus-1.0-postmortem/">blog</a> <a href="http://www.kennettnet.co.uk/blog/comments/music_rescue_4.0_postmortem/">post</a> after each product I ship. However, recently I got the chance to give a talk at <a href="http://cocoaheads.org/uk/Swindon/index.html">CocoaHeads Swindon</a>, and chose to talk about my trials and tribulations when writing <a href="http://itunes.com/app/Clarus">Clarus for iPhone</a> (iTunes Link). The other day it struck me that this actually turned out to be a great postmortem, so instead of writing a blog post I sat at my computer and recorded a video of my slides and commentary. 
 
 The talk goes through many aspects of designing and building an iPhone companion app, from design to implementation gotchas to non-coding issues such as whether you should even bother with an app, how much it costs to do, and so on. 
 
-<div style="text-align:center;"><img src="http://danielkennett.org/wp-content/uploads/2009/11/CompanionAppsImage.jpg" alt="CompanionAppsImage.jpg" border="0" width="540" height="293" /></div>
+<div style="text-align:center;"><img src="http://danielkennett.org/pictures/for_posts/2009/11/CompanionAppsImage.jpg" alt="CompanionAppsImage.jpg" border="0" width="540" height="293" /></div>
 
 Rough Contents: 
 

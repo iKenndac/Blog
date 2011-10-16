@@ -17,7 +17,7 @@ at the massive amount of money that's just been added to my total debt
 confirmation page appeared in my browser I received a *text* from my
 credit card company telling me I was approaching my limit!)), I realised
 just how much time I'll be spending on one of these this year:
-[![image](http://danielkennett.org/wp-content/uploads/2008/04/023jumbo_468x329.jpg "BA 747")](http://danielkennett.org/wp-content/uploads/2008/04/023jumbo_468x329.jpg)
+[![image](http://danielkennett.org/pictures/for_posts/2008/04/023jumbo_468x329.jpg "BA 747")](http://danielkennett.org/pictures/for_posts/2008/04/023jumbo_468x329.jpg)
 Note to plane nerds: I don't know if that's actually the exact model of
 plane I'll be flying on. In June, I'm flying to San Francisco and back,
 which is approximately 5,500 miles each way. In December I'm flying to
@@ -26,7 +26,7 @@ miles each way. So, assuming that the planes fly in fairly straight
 lines to their destinations (which I'm well aware that they don't), I'll
 be flying approximately 30,000 miles this year! To show this small feat,
 allow me to present a map:
-[![image](http://danielkennett.org/wp-content/uploads/2008/04/maps.jpg "maps")](http://danielkennett.org/wp-content/uploads/2008/04/maps.jpg)
+[![image](http://danielkennett.org/pictures/for_posts/2008/04/maps.jpg "maps")](http://danielkennett.org/pictures/for_posts/2008/04/maps.jpg)
 It'd actually be less distance to fly *around the world* from London to
 America to Australia and back to London! Normally, I'd be exited about
 this. And this time is no different - I had an amazing time in San

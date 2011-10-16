@@ -20,7 +20,7 @@ eventually concluding that although it can be tough at times, the
 tradeoffs are very much worth it if you can stomach the pitfalls of a
 life without guaranteed fixed income.
 
-{% img center http://danielkennett.org/wp-content/uploads/2011/01/Indietalkslide.jpg Indie Talk Slide %}
+{% img center http://danielkennett.org/pictures/for_posts/2011/01/Indietalkslide.jpg Indie Talk Slide %}
 
 You can download the slides from the talk
 [here](http://dl.dropbox.com/u/1399296/Indie%20Life%20Slides.pdf).
@@ -36,7 +36,7 @@ you want whenever and wherever you want to. It's a great service which
 I've been using for a long time, and I'm really excited to be able to
 help make it better.
 
-{% img center http://danielkennett.org/wp-content/uploads/2011/01/SpotifyLogo.jpg Spotify Logo %}
+{% img center http://danielkennett.org/pictures/for_posts/2011/01/SpotifyLogo.jpg Spotify Logo %}
 
 I'm aware that this change is the opposite of what many think is the
 ideal path. The idea is to work for "the man" for a few years while

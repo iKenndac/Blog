@@ -26,7 +26,7 @@ categories:
 <p>&bull; Using System.Interop, copy the chunk of memory back into the managed memory space where you can access it from the CLR.&nbsp;</p>
 <p>&bull; You're done! Since the unmanaged memory space isn't garbage collected, don't forget to deallocate the memory space you copied to.&nbsp;</p>
 <p>Here's a nice diagram of what's going on:</p>
-<div style="text-align: center;"><img src="http://danielkennett.org/wp-content/uploads/2010/03/CLRDiagram.png" border="0" alt="CLRDiagram" width="486" height="338" /></div>
+<div style="text-align: center;"><img src="http://danielkennett.org/pictures/for_posts/2010/03/CLRDiagram.png" border="0" alt="CLRDiagram" width="486" height="338" /></div>
 <p>Or, in terms of code:</p>
 <p><strong>Objective-C</strong></p>
 <pre>[cc lang="c" escaped="true"]struct MyStruct myThing;

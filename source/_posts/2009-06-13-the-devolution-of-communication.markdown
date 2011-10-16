@@ -18,4 +18,4 @@ The quality (especially my side) of our communications via text has rapidly tank
 
 <!--more-->
 
-<img src="http://danielkennett.org/wp-content/uploads/2009/06/smss1.gif" alt="iPhone SMSes" title="iPhone SMSes" width="320" height="1412" class="aligncenter size-full wp-image-376" style="border: 1px solid black;" />
+<img src="http://danielkennett.org/pictures/for_posts/2009/06/smss1.gif" alt="iPhone SMSes" title="iPhone SMSes" width="320" height="1412" class="aligncenter size-full wp-image-376" style="border: 1px solid black;" />

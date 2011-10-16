@@ -20,7 +20,7 @@ After that, my technique seemed to improve. I got back on to the road, but then 
 
 13 miles later, I was very wet and muddy, but I really enjoyed it. 
 
-<a href='http://danielkennett.org/wp-content/uploads/2008/03/longroute.png' title='St. Albans Route'><img src='http://danielkennett.org/wp-content/uploads/2008/03/longroute.png' alt='St. Albans Route' /></a>
+<a href='http://danielkennett.org/pictures/for_posts/2008/03/longroute.png' title='St. Albans Route'><img src='http://danielkennett.org/pictures/for_posts/2008/03/longroute.png' alt='St. Albans Route' /></a>
 
 <!--more-->
 
@@ -28,7 +28,7 @@ Only three weeks after getting my bike, it's having a noticeable effect - my tro
 
 <strong>The Nürburgring</strong>
 
-<a href='http://danielkennett.org/wp-content/uploads/2008/03/ringroute.jpg' title='Nürburgring Bike Route'><img src='http://danielkennett.org/wp-content/uploads/2008/03/ringroute.jpg' alt='Nürburgring Bike Route' /></a>
+<a href='http://danielkennett.org/pictures/for_posts/2008/03/ringroute.jpg' title='Nürburgring Bike Route'><img src='http://danielkennett.org/pictures/for_posts/2008/03/ringroute.jpg' alt='Nürburgring Bike Route' /></a>
 
 The terrain of the area makes the direction you take around the track very important. The blue marker on the map shows the lowest point of the route, and the red marker the highest. However, while the path directly between the two is fairly steep, it's also fairly smooth - the other way is through muddy forests and rocky paths - fun on the way down, not so much on the way back! 
 

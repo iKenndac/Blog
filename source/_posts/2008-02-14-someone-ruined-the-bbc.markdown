@@ -34,11 +34,11 @@ Here's a compilation of a few of them:
 
 ... and an official image:
 
-<a href='http://danielkennett.org/wp-content/uploads/2008/02/bbcthreeold.jpg' title='BBC Three ‘Blob’ Idents'><img src='http://danielkennett.org/wp-content/uploads/2008/02/bbcthreeold.jpg' alt='BBC Three ‘Blob’ Idents' /></a>
+<a href='http://danielkennett.org/pictures/for_posts/2008/02/bbcthreeold.jpg' title='BBC Three ‘Blob’ Idents'><img src='http://danielkennett.org/pictures/for_posts/2008/02/bbcthreeold.jpg' alt='BBC Three ‘Blob’ Idents' /></a>
 
 The recently had a rebrand, however - and now its all neon colours and 'hip' things. Not warming at all! 
 
-<a href='http://danielkennett.org/wp-content/uploads/2008/02/bbcthreenew.jpg' title='BBC Three ‘Neon’ ident'><img src='http://danielkennett.org/wp-content/uploads/2008/02/bbcthreenew.jpg' alt='BBC Three ‘Neon’ ident' /></a>
+<a href='http://danielkennett.org/pictures/for_posts/2008/02/bbcthreenew.jpg' title='BBC Three ‘Neon’ ident'><img src='http://danielkennett.org/pictures/for_posts/2008/02/bbcthreenew.jpg' alt='BBC Three ‘Neon’ ident' /></a>
 
 <object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/tG3g5N-HlFM&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/tG3g5N-HlFM&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
 
@@ -48,17 +48,17 @@ I really don't like the new image at all. As we're going over to DVB, perhaps th
 
 Until very recently, BBC HD has just been a 'test' channel, which means it doesn't show a lot of stuff and is merely meant as a technical demo to convince whoever regulates the BBC that its worth it ((Good news - they were convinced, and BBC HD is becoming a full channel!)).
 
-<a href='http://danielkennett.org/wp-content/uploads/2008/02/hdlogo1.jpg' title='BBC HD Logo'><img src='http://danielkennett.org/wp-content/uploads/2008/02/hdlogo1.jpg' alt='BBC HD Logo' /></a>
+<a href='http://danielkennett.org/pictures/for_posts/2008/02/hdlogo1.jpg' title='BBC HD Logo'><img src='http://danielkennett.org/pictures/for_posts/2008/02/hdlogo1.jpg' alt='BBC HD Logo' /></a>
 
 This meant that the BBC pulled their sleeves up in the tech department. The quality of the channel is amazing - far outpassing the efforts from Sky HD et al - they broadcast in <a href="http://en.wikipedia.org/wiki/H264">h.264</a> at a very high bitrate. 
 
 For the ident, they went all out. I can't find a video online, but the ident starts with a swooshy thing:
 
-<a href='http://danielkennett.org/wp-content/uploads/2008/02/hd1.jpg' title='HD Ident 1'><img src='http://danielkennett.org/wp-content/uploads/2008/02/hd1.jpg' alt='HD Ident 1' /></a>
+<a href='http://danielkennett.org/pictures/for_posts/2008/02/hd1.jpg' title='HD Ident 1'><img src='http://danielkennett.org/pictures/for_posts/2008/02/hd1.jpg' alt='HD Ident 1' /></a>
 
 ... which then explodes into a billion little glass pieces:
 
-<a href='http://danielkennett.org/wp-content/uploads/2008/02/hd2.jpg' title='HD Ident 2'><img src='http://danielkennett.org/wp-content/uploads/2008/02/hd2.jpg' alt='HD Ident 2' /></a>
+<a href='http://danielkennett.org/pictures/for_posts/2008/02/hd2.jpg' title='HD Ident 2'><img src='http://danielkennett.org/pictures/for_posts/2008/02/hd2.jpg' alt='HD Ident 2' /></a>
 
 At the same time, it seems that there's a noise attached to each little shard in surround sound space, so you can hear the shards going past and around you.
 

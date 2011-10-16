@@ -54,7 +54,7 @@ Rather than step you through creating the board, I'll simply leave you
 with the circuit diagram to implement and some photos of my finished
 board.
 
-{% img center http://danielkennett.org/wp-content/uploads/2011/09/ArduinoDioderWiring.png Arduino + Dioder Wiring %}
+{% img center http://danielkennett.org/pictures/for_posts/2011/09/ArduinoDioderWiring.png Arduino + Dioder Wiring %}
 
 [{% img center http://farm7.static.flickr.com/6179/6245984929_3832d9711b_z.jpg View Arduino Dioder Shield Top on Flickr.com %}](http://www.flickr.com/photos/24169642@N06/6245984929)
 

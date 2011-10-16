@@ -32,7 +32,7 @@ My technique moves all of the application's self-updating UI into a
 separate nib file, which is controlled by my helper class, a subclass of
 `NSViewController`:
 
-{% img center http://danielkennett.org/wp-content/uploads/2010/12/SparkleHelperXib.png SparkleHelper.xib %}
+{% img center http://danielkennett.org/pictures/for_posts/2010/12/SparkleHelperXib.png SparkleHelper.xib %}
 
 As for the helper class, allow me to present the *simplest sample code ever:*
 
@@ -94,7 +94,7 @@ of effort if you ever have to do this more than once.
 
 ### Example 2: Supporting Multiple OS Versions Using Bundles
 
-{% img right http://danielkennett.org/wp-content/uploads/2010/12/ClarusTargets.png Clarus Target List %} 
+{% img right http://danielkennett.org/pictures/for_posts/2010/12/ClarusTargets.png Clarus Target List %} 
 We've all had it. A new operating system version comes out, and we'd
 really love to support X or Y new user feature in our applications.
 However, what about our customers on older systems? Depending on your
@@ -131,14 +131,14 @@ spewing stuff into the user's console is bad (I'm looking at you,
 Steam), you might like to put minimum/maximum OS versions in the
 bundle's Info.plist and check them before attempting to load.
 
-{% img center http://danielkennett.org/wp-content/uploads/2010/12/KNPluginMinimumSystemVersion2.png KNPluginMinimumSystemVersion %}
+{% img center http://danielkennett.org/pictures/for_posts/2010/12/KNPluginMinimumSystemVersion2.png KNPluginMinimumSystemVersion %}
 
 In code, this can then be used as needed. For example, Clarus attempts
 to load all the embedded bundles present, and maintains a list of these
 internally. When a piece of code, it can do a simple check and alter the
 UI as needed:
 
-{% img center http://danielkennett.org/wp-content/uploads/2010/12/ClarusPluginManager.png Clarus Plugin Manager %}
+{% img center http://danielkennett.org/pictures/for_posts/2010/12/ClarusPluginManager.png Clarus Plugin Manager %}
 
 ### Conclusion
 

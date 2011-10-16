@@ -16,7 +16,7 @@ So, after doing a couple of shorter rides to prep myself a bit, today I armed my
 
 So, some stats. This is a map of where I went. Blue line is the route I took from home to work, red line the route I took along <a href="http://en.wikipedia.org/wiki/Alban_Way">Alban Way</a> back home.  
 
-<a href='http://danielkennett.org/wp-content/uploads/2008/03/bikeroutes.jpg' title='Cycling Routes'><img src='http://danielkennett.org/wp-content/uploads/2008/03/bikeroutes.jpg' alt='Cycling Routes' /></a>
+<a href='http://danielkennett.org/pictures/for_posts/2008/03/bikeroutes.jpg' title='Cycling Routes'><img src='http://danielkennett.org/pictures/for_posts/2008/03/bikeroutes.jpg' alt='Cycling Routes' /></a>
 
 <!--more-->
 

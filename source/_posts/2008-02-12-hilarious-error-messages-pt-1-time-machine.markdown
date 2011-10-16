@@ -10,6 +10,6 @@ categories:
 - General
 ---
 
-<a href='http://danielkennett.org/wp-content/uploads/2008/02/tmerror.png' title='Time Machine'><img src='http://danielkennett.org/wp-content/uploads/2008/02/tmerror.png' alt='Time Machine' /></a>
+<a href='http://danielkennett.org/pictures/for_posts/2008/02/tmerror.png' title='Time Machine'><img src='http://danielkennett.org/pictures/for_posts/2008/02/tmerror.png' alt='Time Machine' /></a>
 
 Spot the deliberate mistake?

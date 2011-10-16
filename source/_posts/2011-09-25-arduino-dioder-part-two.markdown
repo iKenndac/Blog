@@ -11,7 +11,7 @@ categories:
 - Nerd++
 ---
 
-{% img right http://danielkennett.org/wp-content/uploads/2011/09/DioderFacebookReaction.png Dioder Facebook Reaction %}
+{% img right http://danielkennett.org/pictures/for_posts/2011/09/DioderFacebookReaction.png Dioder Facebook Reaction %}
 
 A couple of weeks ago, I [wrote a post](http://danielkennett.org/blog/2011/09/arduino-dioder-part-one/)
 detailing the process of combining a set of colour-changing IKEA LED
@@ -95,7 +95,7 @@ of a given image. Since Core Image is badass and much better than me,
 this actually causes all the work to be kept on the graphics card and
 caused CPU usage to tumble.
 
-{% img center http://danielkennett.org/wp-content/uploads/2011/09/DioderScreenColoursApp.png Dioder Screen Colours Screenshot %}
+{% img center http://danielkennett.org/pictures/for_posts/2011/09/DioderScreenColoursApp.png Dioder Screen Colours Screenshot %}
 
 The final project for this post contains two methods of calculating
 colours:

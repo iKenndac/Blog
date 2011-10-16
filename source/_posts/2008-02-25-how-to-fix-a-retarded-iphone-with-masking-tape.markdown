@@ -28,14 +28,14 @@ document the process.
 **Step 1** Remove the SIM card from the iPhone, and blur the SIM ID 
 from the card so pikeys don't steal your internets.
 
-[{% img center http://danielkennett.org/wp-content/uploads/2008/02/img_3810.jpg %}](http://danielkennett.org/wp-content/uploads/2008/02/img_3810.jpg "SIM")
+[{% img center http://danielkennett.org/pictures/for_posts/2008/02/img_3810.jpg %}](http://danielkennett.org/pictures/for_posts/2008/02/img_3810.jpg "SIM")
 
 **Step 2** Apply two or three layers of thin masking tap to the back of the SIM card.
 
-[{% img center http://danielkennett.org/wp-content/uploads/2008/02/img_3811.jpg %}](http://danielkennett.org/wp-content/uploads/2008/02/img_3811.jpg "Tape")
+[{% img center http://danielkennett.org/pictures/for_posts/2008/02/img_3811.jpg %}](http://danielkennett.org/pictures/for_posts/2008/02/img_3811.jpg "Tape")
 
 **Step 3** Reassemble.
 
 **Step 4** Revel in all the signal you have!
 
-[{% img center http://danielkennett.org/wp-content/uploads/2008/02/img_3814.jpg %}](http://danielkennett.org/wp-content/uploads/2008/02/img_3814.jpg "Signal!")
+[{% img center http://danielkennett.org/pictures/for_posts/2008/02/img_3814.jpg %}](http://danielkennett.org/pictures/for_posts/2008/02/img_3814.jpg "Signal!")

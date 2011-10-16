@@ -11,7 +11,7 @@ categories:
 ---
 
 <p>All of my applications these days are versioned after the revision number of the version control repository they're built from. Normally, having a version number different from the human readable version number isn't necessary, but it's handy in some cases, such as distributing beta builds and managing multiple builds of the same version.</p>
-<img style="float: left;" src="http://danielkennett.org/wp-content/uploads/2011/01/ClarusAbout.png" border="0" alt="Clarus' About Box" width="364" height="414" />
+<img style="float: left;" src="http://danielkennett.org/pictures/for_posts/2011/01/ClarusAbout.png" border="0" alt="Clarus' About Box" width="364" height="414" />
 <p>For example, to the left you can see Clarus version 1.5.4 (239), which is the version you can download from my <a href="http://www.kennettnet.co.uk/products/clarus/">website</a>. The version submitted to the Mac App Store is 1.5.4 (247) for a couple of reasons:</p>
 <ul>
 <li>If you're distributing apps both in and out of the App Store, you want the human-readable version number to be the same in both so users don't feel the version in the App Store (or not) is "newer" than their version.</li>
