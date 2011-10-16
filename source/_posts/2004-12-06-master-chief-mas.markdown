@@ -10,7 +10,4 @@ categories:
 - General
 ---
 
-He saves the world from the Covenant and the Flood... and he guards my
-Christmas tree with his ever watchful eye... in festive getup, of
-course!
-![image](http://danielkennett.org/pictures/mcxmas.jpg)
+He saves the world from the Covenant and the Flood... and he guards my Christmas tree with his ever watchful eye... in festive getup, of course!<p><center><img border="0" src="http://danielkennett.org/pictures/mcxmas.jpg"/></center></p>

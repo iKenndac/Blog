@@ -10,6 +10,6 @@ categories:
 - General
 ---
 
-I would like it on record that I felt ill *before* eating Tim's cooking,
-and consuming said delicacy didn't seem to affect me that much. Thank
-you for your time.
+I would like it on record that I felt ill <em>before</em> eating Tim's cooking, and consuming said delicacy didn't seem to affect me that much.
+
+Thank you for your time.

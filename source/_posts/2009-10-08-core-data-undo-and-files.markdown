@@ -21,7 +21,7 @@ putting certain operations into undo groups.
 
 Clarus can store photos and other resources in documents, and achieves
 this by using a document bundle. A class, called
-KNBundledDocumentResourceManager, manages what's going on:
+`KNBundledDocumentResourceManager`, manages what's going on:
 
 -   When you first add a resource to a document, the file you add is
     copied into what's internally known as the *transient resources*
@@ -112,8 +112,8 @@ user can close the document without prompts and lose their file.
 
 ### The Correct Approach
 
-This is the approach Clarus 1.5 takes: Adding a photo works as in 1.0.x
-— the file is first put into a transient directory, then moved to the
+This is the approach Clarus 1.5 takes: Adding a photo works as in 1.0.x — the
+file is first put into a transient directory, then moved to the
 package upon save. When you remove a photo, either by undoing an add or
 removing it using the Clarus UI, the file is kept in the package, but is
 internally moved to a removed resources list. When you redo an add or
@@ -130,15 +130,23 @@ account a few niggles. There are three methods in Clarus for adding and
 removing photos. The first is called by whatever has the file path of
 the original file to be added:
 
-> -(void)addImageFromPath:(NSString \*)path { NSString \*resourceId =
-> [[[self document] resourceManager] addResourceFromPath:path]; [[[self
-> document] undoManager] beginUndoGrouping]; Photo \*photo =
-> [imageController newObject]; [photo setResourceId:resourceId];
-> [imageController addObject:photo]; [photo setDelegate:[[self document]
-> resourceManager]]; [[[[self document] undoManager]
-> prepareWithInvocationTarget:self] removePhoto:photo
-> withResourceId:resourceId]; [[[self document] undoManager]
-> endUndoGrouping]; }
+{% codeblock lang:objc %}
+-(void)addImageFromPath:(NSString *)path {
+
+    NSString *resourceId = [[[self document] resourceManager] addResourceFromPath:path];
+
+    [[[self document] undoManager] beginUndoGrouping];
+
+    Photo *photo = [imageController newObject]; 
+    [photo setResourceId:resourceId];
+    [imageController addObject:photo]; 
+    [photo setDelegate:[[self document] resourceManager]];
+    
+    [[[[self document] undoManager] prepareWithInvocationTarget:self] removePhoto:photo withResourceId:resourceId]; 
+    [[[self document] undoManager] endUndoGrouping];
+}
+{% endcodeblock %}
+
 
 Fairly simple, right? This is what the code *does*:
 
@@ -150,24 +158,34 @@ Fairly simple, right? This is what the code *does*:
 4.  Notifies the undo manager of how to undo this operation.
 5.  Ends the undo grouping.
 
-The removePhoto:withResourceId: method is simpler:
+The `removePhoto:withResourceId:` method is simpler:
 
-> -(void)removePhoto:(Photo \*)aPhoto withResourceId:(NSString
-> \*)resourceId { [[[self document] undoManager] beginUndoGrouping];
-> [[[self document] resourceManager] removeResourceWithId:resourceId];
-> [[aPhoto pet] removePhotosObject:aPhoto]; [[[[self document]
-> undoManager] prepareWithInvocationTarget:self] addPhoto:aPhoto
-> withResourceId:resourceId]; [[[self document] undoManager]
-> endUndoGrouping]; }
+{% codeblock lang:objc %}
+-(void)removePhoto:(Photo *)aPhoto withResourceId:(NSString *)resourceId {
+    
+    [[[self document] undoManager] beginUndoGrouping];
+    
+    [[[self document] resourceManager] removeResourceWithId:resourceId];
+    [[aPhoto pet] removePhotosObject:aPhoto];
 
-Finally, addPhoto:withResourceId: is just as simple:
+    [[[[self document] undoManager] prepareWithInvocationTarget:self] addPhoto:aPhoto withResourceId:resourceId];
+    [[[self document] undoManager] endUndoGrouping];
+}
+{% endcodeblock %}
 
-> -(void)addPhoto:(Photo \*)aPhoto withResourceId:(NSString
-> \*)resourceId { [[[self document] undoManager] beginUndoGrouping];
-> [[aPhoto pet] addPhotosObject:aPhoto]; [[[[self document] undoManager]
-> prepareWithInvocationTarget:self] removePhoto:aPhoto
-> withResourceId:resourceId]; [[[self document] undoManager]
-> endUndoGrouping]; }
+Finally, `addPhoto:withResourceId:` is just as simple:
+
+{% codeblock lang:objc %}
+-(void)addPhoto:(Photo *)aPhoto withResourceId:(NSString *)resourceId {
+
+    [[[self document] undoManager] beginUndoGrouping];
+    
+    [[aPhoto pet] addPhotosObject:aPhoto];
+
+    [[[[self document] undoManager] prepareWithInvocationTarget:self] removePhoto:aPhoto withResourceId:resourceId];
+    [[[self document] undoManager] endUndoGrouping];
+}
+{% endcodeblock %}
 
 Hopefully they're simple enough to understand without spelling it out.
 Ideally, this is all we'd need to work properly, right? The resource
@@ -190,21 +208,21 @@ throughout the process.
 
 This isn't actually shown in the code here, but is an artefact of how
 the resource manager works. The resource manager has an instance of
-NSBundle representing the document, and used to get paths using
-NSBundle's parthForResource:ofType: method. However, it would appear
-that NSBundle caches the contents of the bundle. As resources are moved
+`NSBundle` representing the document, and used to get paths using
+`NSBundle`'s `pathForResource:ofType:` method. However, it would appear
+that `NSBundle` caches the contents of the bundle. As resources are moved
 in an out of the resources directory, NSBundle gets out of sync pretty
-quickly, and -pathForResource:ofType: can return nil even though the
+quickly, and `-pathForResource:ofType:` can return `nil` even though the
 file is most definitely, positively there. To solve this, I eventually
-stopped using NSBundle's methods at all. [[bundle resourcePath]
-stringByAppendingPathComponent:fileName] works much better.
+stopped using `NSBundle`'s methods at all. `[[bundle resourcePath]
+stringByAppendingPathComponent:fileName]` works much better.
 
 ## Visually
 
 This approach really does require a separate controller to keep track of
 what goes where and when. Consider this diagram of what's going on:
 
-![Untitled.png](http://danielkennett.org/wp-content/uploads/2009/10/Untitled.png)
+{% img center http://danielkennett.org/wp-content/uploads/2009/10/Untitled.png Clarus document resource diagram %}
 
 Where a resource actually is depends on *four* things:
 
@@ -226,8 +244,8 @@ My approach still has a couple of problems:
     represent the last saved state any more - if you were to copy the
     document at this moment, the copy would be broken as some resources
     would be missing.~~ *The following has now been implemented:* This
-    can be fixed by simply not moving files around when they're removed
-    - only when the document is saved. This allows the document package
+    can be fixed by simply not moving files around when they're removed - only 
+    when the document is saved. This allows the document package
     to keep its integrity *and* allow undo past the last save.
 
 ## Conclusion

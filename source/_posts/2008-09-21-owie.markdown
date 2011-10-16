@@ -8,8 +8,7 @@ title: Owie!
 wordpress_id: '184'
 ---
 
-I've been doing some bike riding since moving house, and I'm lucky to be
-situated within riding distance of [Chick Sands](http://www.chicksandsbikepark.co.uk/). However, while watching
-someone else and assuming that if I followed their path I wouldn't
-crash, I... well, crashed. Artist's impression:
-[![Crash](http://danielkennett.org/wp-content/uploads/2008/09/crash.png "Oh noes!")](http://danielkennett.org/wp-content/uploads/2008/09/crash.png)
+I've been doing some bike riding since moving house, and I'm lucky to be situated within riding distance of <a href="http://www.chicksandsbikepark.co.uk/">Chick Sands</a>. However, while watching someone else and assuming that if I followed their path I wouldn't crash, I... well, crashed. Artist's impression:
+
+<a href="http://danielkennett.org/wp-content/uploads/2008/09/crash.png"><img src="http://danielkennett.org/wp-content/uploads/2008/09/crash.png" alt="Crash" title="Oh noes!" width="463" height="206" class="size-full wp-image-185" /></a>
+

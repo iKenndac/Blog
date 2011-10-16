@@ -10,11 +10,18 @@ categories:
 - General
 ---
 
-The other day I finally got enough money for my mount in World of
-Warcraft. I called him Wolfie! First I had to go to the kennel to choose
-which one I wanted...
-![image](http://danielkennett.org/pictures/wow/kennelsml.jpg) This one!
-![image](http://danielkennett.org/pictures/wow/wolfie2sml.jpg) Then, I
-took him for a run:
-![image](http://danielkennett.org/pictures/wow/wolfiesml.jpg) Bored at
-work? Never!
+The other day I finally got enough money for my mount in World of Warcraft. I called him Wolfie! 
+
+First I had to go to the kennel to choose which one I wanted...
+
+<img src="http://danielkennett.org/pictures/wow/kennelsml.jpg" />
+
+This one!
+
+<img src="http://danielkennett.org/pictures/wow/wolfie2sml.jpg" />
+
+Then, I took him for a run:
+
+<img src="http://danielkennett.org/pictures/wow/wolfiesml.jpg" />
+
+Bored at work? Never!

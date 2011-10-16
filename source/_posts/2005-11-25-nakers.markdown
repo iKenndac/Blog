@@ -10,8 +10,12 @@ categories:
 - Cars, Models &amp; Gadgets
 ---
 
-For the past week I've been driving around in a Hyundai Getz. 66bhp!
-Anyway, I now have my car back - with a Mazdaspeed body kit attached.
-Only problem? It's naked! Don't worry, it'll have it's stripes back
-soon. ![image](pictures/rx8/ms2.jpg) ![image](pictures/rx8/ms1.jpg)
-![image](pictures/rx8/ms3.jpg)
+For the past week I've been driving around in a Hyundai Getz. 66bhp! Anyway, I now have my car back - with a Mazdaspeed body kit attached. Only problem? It's naked! 
+
+Don't worry, it'll have it's stripes back soon.
+
+<img src="pictures/rx8/ms2.jpg"/> 
+
+<img src="pictures/rx8/ms1.jpg"/> 
+
+<img src="pictures/rx8/ms3.jpg"/> 

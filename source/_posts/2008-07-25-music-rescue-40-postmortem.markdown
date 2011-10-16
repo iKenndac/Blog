@@ -10,5 +10,4 @@ categories:
 - Programming/Work
 ---
 
-This post has been moved
-[here](http://www.kennettnet.co.uk/blog/full/music_rescue_4.0_postmortem/).
+This post has been moved <a href="http://www.kennettnet.co.uk/blog/full/music_rescue_4.0_postmortem/">here</a>.

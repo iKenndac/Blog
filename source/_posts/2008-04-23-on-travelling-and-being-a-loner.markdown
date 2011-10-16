@@ -31,10 +31,10 @@ It'd actually be less distance to fly *around the world* from London to
 America to Australia and back to London! Normally, I'd be exited about
 this. And this time is no different - I had an amazing time in San
 Francisco and California last time I was there, which I
-[documented](http://danielkennett.org/?p=28)
-[really](http://danielkennett.org/?p=29)
-[quite](http://danielkennett.org/?p=30)
-[concisely](http://danielkennett.org/?p=31). San Francisco is an amazing
+[documented](http://danielkennett.org/blog/2006/08/wwdc-day-1/)
+[really](http://danielkennett.org/blog/2006/08/wwdc-2006/)
+[quite](http://danielkennett.org/blog/2006/08/the-day-to-end-all-days/)
+[concisely](http://danielkennett.org/blog/2006/08/its-a-mini-adventure/). San Francisco is an amazing
 city, and there's something about being in a brand new place halfway
 around the world all on your own that's somehow empowering - it's hard
 to describe. However, I'm a little worried that this time it won't be as

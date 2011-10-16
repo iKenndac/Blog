@@ -10,8 +10,7 @@ categories:
 - Programming/Work
 ---
 
-### Example 1: Managing Optional Features in Different Builds of the
-Same Application (like, say, Sparkle)
+### Example 1: Managing Optional Features in Different Builds of the Same Application (like, say, Sparkle)
 
 With the announcement of the Mac App Store, one framework has been
 causing lots of trouble for a lot of people: Sparkle. Sparkle is a
@@ -31,62 +30,61 @@ want to use Sparkle and have a separate version for the App Store.
 
 My technique moves all of the application's self-updating UI into a
 separate nib file, which is controlled by my helper class, a subclass of
-NSViewController:
+`NSViewController`:
 
-![SparkleHelper.xib](http://danielkennett.org/wp-content/uploads/2010/12/SparkleHelperXib.png)
+{% img center http://danielkennett.org/wp-content/uploads/2010/12/SparkleHelperXib.png SparkleHelper.xib %}
 
-As for the helper class, allow me to present the *simplest sample code
-ever:*
+As for the helper class, allow me to present the *simplest sample code ever:*
 
-    [cc lang="objc" escaped="true"]
-    #import "SparkleHelper.h"
+{% codeblock lang:objc %}
+#import "SparkleHelper.h"
 
-    static NSString * const kSparkleHelperNibName = @"SparkleHelper";
-    static NSString * const kSparkleUpdaterClassName = @"SUUpdater";
+static NSString * const kSparkleHelperNibName = @"SparkleHelper";
+static NSString * const kSparkleUpdaterClassName = @"SUUpdater";
 
-    @implementation SparkleHelper
+@implementation SparkleHelper
 
-    -(id)init {
+-(id)init {
 
-        if (NSClassFromString(kSparkleUpdaterClassName) == nil) {
-            [self release];
-            return nil;
-        }
-
-        if ((self = [super initWithNibName:kSparkleHelperNibName bundle:nil])) {
-            [self view];
-        }
-        return self;
+    if (NSClassFromString(kSparkleUpdaterClassName) == nil) {
+        [self release];
+        return nil;
     }
 
-    -(NSMenuItem *)checkForUpdatesMenuItem {
-        return checkForUpdatesMenuItem;
+    if ((self = [super initWithNibName:kSparkleHelperNibName bundle:nil])) {
+        [self view];
     }
+    return self;
+}
 
-    @end
-    [/cc]
+-(NSMenuItem *)checkForUpdatesMenuItem {
+    return checkForUpdatesMenuItem;
+}
 
-All this does is check if the SUUpdater class, used by Sparkle, exists.
+@end
+{% endcodeblock %}
+
+All this does is check if the `SUUpdater` class, used by Sparkle, exists.
 If it does, it loads the nib file containing my "Check for Updates..."
-menu item into an IBOutlet and the chunk of UI to be placed into the
+menu item into an `IBOutlet` and the chunk of UI to be placed into the
 Preferences window into the view controller's view property. Below is
 code copied and pasted from Clarus itself — applicationMenu is an
-IBOutlet to the Application menu, and updatesView is an IBOutlet to a
+`IBOutlet` to the Application menu, and updatesView is an `IBOutlet` to a
 view in the Preferences window that should contain the self-updating UI.
 
-    [cc lang="objc" escaped="true"]
-    SparkleHelper *helper = [[SparkleHelper alloc] init];
+{% codeblock lang:objc %}
+SparkleHelper *helper = [[SparkleHelper alloc] init];
 
-    if (helper != nil) {
+if (helper != nil) {
 
-        [applicationMenu insertItem:[helper checkForUpdatesMenuItem] atIndex:1];
-        [applicationMenu insertItem:[NSMenuItem separatorItem] atIndex:1];
+    [applicationMenu insertItem:[helper checkForUpdatesMenuItem] atIndex:1];
+    [applicationMenu insertItem:[NSMenuItem separatorItem] atIndex:1];
 
-        [updatesView addSubview:[helper view]];
+    [updatesView addSubview:[helper view]];
 
-        [helper release];
-    }
-    [/cc]
+    [helper release];
+}
+{% endcodeblock %}
 
 This technique will avoid having to use compile-time \#ifdefs to change
 the behaviour of the application. Simply create a target that doesn't
@@ -96,8 +94,7 @@ of effort if you ever have to do this more than once.
 
 ### Example 2: Supporting Multiple OS Versions Using Bundles
 
-![Clarus Target List](http://danielkennett.org/wp-content/uploads/2010/12/ClarusTargets.png)
-
+{% img right http://danielkennett.org/wp-content/uploads/2010/12/ClarusTargets.png Clarus Target List %} 
 We've all had it. A new operating system version comes out, and we'd
 really love to support X or Y new user feature in our applications.
 However, what about our customers on older systems? Depending on your
@@ -113,7 +110,7 @@ write code for 10.6 as long as you're careful about what you use when.
 Personally, I've never been a huge fan of this approach. It works
 absolutely fine, but you're pretty much on your own on when it comes to
 defending against calling a new API on an older OS version. You can do
-all the -respondsToSelector: and NSClassFromStrings you like, but I'm
+all the `-respondsToSelector:` and `NSClassFromString`s you like, but I'm
 always scared I'll miss something and crash.
 
 Clarus uses one specific Mac OS 10.6-only feature: the Image Capture
@@ -134,14 +131,14 @@ spewing stuff into the user's console is bad (I'm looking at you,
 Steam), you might like to put minimum/maximum OS versions in the
 bundle's Info.plist and check them before attempting to load.
 
-![KNPluginMinimumSystemVersion](http://danielkennett.org/wp-content/uploads/2010/12/KNPluginMinimumSystemVersion2.png)
+{% img center http://danielkennett.org/wp-content/uploads/2010/12/KNPluginMinimumSystemVersion2.png KNPluginMinimumSystemVersion %}
 
 In code, this can then be used as needed. For example, Clarus attempts
 to load all the embedded bundles present, and maintains a list of these
 internally. When a piece of code, it can do a simple check and alter the
 UI as needed:
 
-![Clarus Plugin Manager](http://danielkennett.org/wp-content/uploads/2010/12/ClarusPluginManager.png)
+{% img center http://danielkennett.org/wp-content/uploads/2010/12/ClarusPluginManager.png Clarus Plugin Manager %}
 
 ### Conclusion
 

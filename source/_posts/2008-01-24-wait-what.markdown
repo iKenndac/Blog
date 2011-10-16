@@ -10,5 +10,6 @@ categories:
 - Programming/Work
 ---
 
-Heh, you know you've done something pretty bad when the compiler just
-gives up on a simple instance declaration! ![Compiler Confusion](http://danielkennett.org/pictures/compilerconfusion.png)
+Heh, you know you've done something pretty bad when the compiler just gives up on a simple instance declaration! 
+
+<img src="http://danielkennett.org/pictures/compilerconfusion.png" alt="Compiler Confusion" />

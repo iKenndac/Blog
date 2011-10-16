@@ -11,9 +11,14 @@ categories:
 ---
 
 **Note:** This is full-on, hardcore *Computer Science* right here. If
-you're here to read about [my cute doggie](http://danielkennett.org/?p=264) or how I'm the [best boyfriend ever](http://danielkennett.org/?p=335), this post isn't for you. **Want
-the code first?** Head over to the [KNKVC page](http://www.kennettnet.co.uk/code/KNKVC/) of my company's site to
-download it. I'm an Objective-C/Cocoa programmer by heart, but because
+you're here to read about [my cute doggie](http://danielkennett.org/?p=264) or how I'm the [best boyfriend ever](http://danielkennett.org/?p=335), this post isn't for you.
+
+**Want the code first?**
+
+Head over to the [KNKVC page](http://www.kennettnet.co.uk/code/KNKVC/) of my company's site to
+download it. 
+
+I'm an Objective-C/Cocoa programmer by heart, but because
 of my job I also regularly program on Windows. Now, since I'm a Mac
 developer you're probably expecting me to harp on about how Windows
 programming is soul-destroying and crappy and blah blah blah. Well, no.
@@ -48,7 +53,7 @@ Observing (KVO). Key-Value Coding allows you to get and set values of
 objects without actually caring what they are. It provides nifty little
 features when combined with arrays and dictionaries. Say you have an
 array of chairs. Want a list of the chairs' colours?
-*chairArray.valueForKey("colour");* gets you that list. Key-Value
+`chairArray.valueForKey("colour");` gets you that list. Key-Value
 Observing allows you to be notified when a property of a particular
 object is changed. For example, if you want to know when the number of
 legs your chair has changes (perhaps one breaks off?), add yourself as
@@ -61,13 +66,18 @@ application.
 
 ### How does it work? Magic, right?
 
+
+{% img right http://danielkennett.org/wp-content/uploads/2009/08/KNKVCProjectSml.PNG KNKVC Project %}
 Three things made me attempt to implement KVC/O in .NET...
-![KNKVCProjectSml.PNG](http://danielkennett.org/wp-content/uploads/2009/08/KNKVCProjectSml.PNG)
+
 1. For ages I've pondered how Key-Value Observing in Cocoa works. I get
-about 90% of it, but how does it *automatically*know when the properties
-are changed? I don't do anything special - just set an iVar. 2. I've
-become so used to KVC and KVO, I find it hard to write code without
-them. 3. I should really get round to learning C\#. Visual Basic is
+about 90% of it, but how does it *automatically* know when the properties
+are changed? I don't do anything special - just set an iVar.
+
+2. I've become so used to KVC and KVO, I find it hard to write code without
+them.
+
+3. I should really get round to learning C\#. Visual Basic is
 great, but annoyingly restrictive at times. So, how better to learn a
 brand new programming language than by implementing something I don't
 understand? Great!
@@ -77,14 +87,14 @@ understand? Great!
 First, KVC. KVC is pretty easy to implement, to be honest, and the
 entire KVC system is only around 400 lines of C\#. I declare a couple of
 extension classes to the Object - one for getting and the other for
-setting, just to keep it separate. When you call valueForKey, it simply
-uses System.Reflection to look for a property for that key and invokes
+setting, just to keep it separate. When you call `valueForKey`, it simply
+uses `System.Reflection` to look for a property for that key and invokes
 the getter to retrieve the value. If a property isn't found, we look for
 a method that returns a value with the same name as the key. If *that*
-doesn't work, we call valueForUndefinedKey to throw an exception or do
+doesn't work, we call `valueForUndefinedKey` to throw an exception or do
 whatever custom logic subclasses might want to do. Setting is more or
 less the same story, but if a property can't be found we look for a
-method called set<Key\> that takes a single parameter and call that.
+method called `set<Key>` that takes a single parameter and call that.
 Finally, I implement a few specific extension methods for arrays and
 dictionaries to get that juicy feature set I was speaking about.
 
@@ -96,37 +106,37 @@ implementation that's mostly full of null checking. Unfortunately, it's
 not simple enough to describe succinctly with words. Allow me to
 present... a *diagram*:
 
-![KNKVO Path Flow.png](http://danielkennett.org/wp-content/uploads/2009/08/KNKVO-Path-Flow.png)
+{% img center http://danielkennett.org/wp-content/uploads/2009/08/KNKVO-Path-Flow.png KNKVO Path Flow %}
 
 At the moment, let's just pretend the automatic stuff actually works and
-KNKVOCore gets notifications of then a property is about to change and
+`KNKVOCore` gets notifications of then a property is about to change and
 when it has changed. Using these notifications, it looks through the
-list of ObservationInfo classes and if the key and object match, tells
+list of `ObservationInfo` objects and if the key and object match, tells
 them that their property will or has changed. In turn, the
-ObservationInfo object, depending on the options set by the observer,
-sends out change notifications. Each ObservationInfo is responsible for
+`ObservationInfo` object, depending on the options set by the observer,
+sends out change notifications. Each `ObservationInfo` is responsible for
 one observation of an object by an observer.
 
 At the moment, this is all very simple. However, it gets complicated
 when we start dealing with key *paths*. A key path is a trail through an
 object tree, and look very much like dot notation in Java or C\# or
-whatever. So, let's say we want to observe
-house.kitchen.drawer.utensilCount. Easy, right? We just *valueForKey*our
-way down to *drawer*and observe *utensilCount*, right? Fine, but what
-happens if someone *else* says *kitchen.drawer = new drawer()*?
+whatever. So, let's say we want to observe `house.kitchen.drawer.utensilCount`.
+Easy, right? We just `valueForKey` our
+way down to `drawer` and observe `utensilCount`, right? Fine, but what
+happens if someone *else* says `kitchen.drawer = new drawer()`?
 Suddenly, the drawer instance we're observing isn't the same as
-*house.kitchen.drawer*, and our observation is now either observing the
+`house.kitchen.drawer`, and our observation is now either observing the
 wrong thing, or observing nothing since memory management deallocated
 the object. What we need to do is observe every single step of the key
 path for changes, and when items change, remove the observer from the
 old value and add it to the new one. All this happens under the hood
 since the client doesn't care about what kitchen the house has, or what
 drawer it has - just how many utensils are in the house's kitchen's
-drawer. Enter *KNKVOKeyPathObserver*. When the client wants to observer
-a key *path*, KNKVOCore creates one of these bad boys instead of an
-ObservationInfo. The KeyPathObserver then runs through the key path,
+drawer. Enter `KNKVOKeyPathObserver`. When the client wants to observer
+a key *path*, `KNKVOCore` creates one of these bad boys instead of an
+`ObservationInfo`. The `KeyPathObserver` then runs through the key path,
 observing each part of the path on the relevant object, for which
-KNKVOCore creates an ObservationInfo as discussed before. When it
+`KNKVOCore` creates an `ObservationInfo` as discussed before. When it
 receives a change notification from any of its objects, it removes its
 observers from the entire tree of old objects and adds new observers to
 the new tree, sending change notifications back to the *original*
@@ -134,22 +144,34 @@ observer as needed.
 
 ### Automatic?
 
-Up until now we've been assuming that KNKVOCore can get notifications
+Up until now we've been assuming that `KNKVOCore` can get notifications
 just before and after properties of objects change. This isn't so easy
 in C\#.NET. The Cocoa version of KVO allows you to manually specify when
-you're going to change a value: *[self willChangeValueForKey:@"name"];
-// Some really complex logic to determine a new name [self
-didChangeValueForKey:@"name"];* I've implemented this in my version as
+you're going to change a value: 
+
+{% codeblock lang:objc %}
+[self willChangeValueForKey:@"name"];
+// Some really complex logic to determine a new name
+[self didChangeValueForKey:@"name"];
+{% endcodeblock %}
+
+I've implemented this in my version as
 well, so currently properties have to do a similar thing to get noticed
-by KVOCore. Which is totally lame, since I can't modify all the
+by `KVOCore`. Which is totally lame, since I can't modify all the
 properties in existing .NET classes. The next solution is to add those
-will/didChange... calls into the setValueForKey methods. This is *less*
-lame because I can call setValueForKey on anything. However, all the
+will/didChange... calls into the `setValueForKey` methods. This is *less*
+lame because I can call `setValueForKey` on anything. However, all the
 other classes aren't going to use those, so I can only observe when *I*
-change they keys, which is dumb since I *know*that the value changed,
-because I just changed it. See? The next solution is to use .NET's
-*INotifyPropertyChanging* and *INotifyPropertyChanged* interfaces, but
-barely anything actually uses them. Next! The *next* solution is to get
+change they keys, which is dumb since I *know* that the value changed,
+because I just changed it. See?
+
+The next solution is to use .NET's `INotifyPropertyChanging` and
+`INotifyPropertyChanged` interfaces, but
+barely anything actually uses them. 
+
+Next! 
+
+The *next* solution is to get
 clever with *Reflection.Emit*. Using *Reflection.Emit* allows you to
 dynamically override methods, but unfortunately you have to create a
 dynamic subclass to do so, rendering this approach useless as well - I
@@ -158,7 +180,9 @@ PostSharp. PostSharp is an aspect-based framework, allowing the
 injection of methods that get called just before and just after the
 target method. This is perfect! Unfortunately, PostSharp does this
 either on compile or load time, meaning we can't do it dynamically at
-run time. Damnit! ...and that's it. I've now run out of solutions.
+run time. Damnit! 
+
+...and that's it. I've now run out of solutions.
 Microsoft are currently testing .NET 4.0, which promises more
 dynamic...ness, including dynamic dispatch. Hopefully that'll allow me
 to implement automatic KVO, but since I'd like to release the next

@@ -10,11 +10,15 @@ categories:
 - General
 ---
 
-![image](http://danielkennett.org/pictures/lego/legomen.jpg) Geek? Me?
-Nah... I mean, it's not like finally seeing some Star Wars films and
-playing through Lego Star Wars on the XBox prompted me to spend half a
-day building an X-Wing out of Lego...
-![image](http://danielkennett.org/pictures/lego/legostarwars.jpg) The
-Game ![image](http://danielkennett.org/pictures/lego/legobuilding.jpg)
-Building ![image](http://danielkennett.org/pictures/lego/legoxwing.jpg)
-The Result
+<img src="http://danielkennett.org/pictures/lego/legomen.jpg"/>
+
+Geek? Me? Nah... I mean, it's not like finally seeing some Star Wars films and playing through Lego Star Wars on the XBox prompted me to spend half a day building an X-Wing out of Lego...
+
+<center><img src="http://danielkennett.org/pictures/lego/legostarwars.jpg"/>
+The Game
+
+<img src="http://danielkennett.org/pictures/lego/legobuilding.jpg"/>
+Building 
+
+<img src="http://danielkennett.org/pictures/lego/legoxwing.jpg"/>
+The Result</center>

@@ -10,5 +10,4 @@ categories:
 - Programming/Work
 ---
 
-This post has been moved
-[here](http://www.kennettnet.co.uk/blog/full/my_love_of_icons/).
+This post has been moved <a href="http://www.kennettnet.co.uk/blog/full/my_love_of_icons/">here</a>.

@@ -10,5 +10,6 @@ categories:
 - General
 ---
 
-[![Time Machine](http://danielkennett.org/wp-content/uploads/2008/02/tmerror.png)](http://danielkennett.org/wp-content/uploads/2008/02/tmerror.png "Time Machine")
+<a href='http://danielkennett.org/wp-content/uploads/2008/02/tmerror.png' title='Time Machine'><img src='http://danielkennett.org/wp-content/uploads/2008/02/tmerror.png' alt='Time Machine' /></a>
+
 Spot the deliberate mistake?

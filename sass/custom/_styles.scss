@@ -43,3 +43,10 @@ body > nav form {
 #main ul {
 	margin-left: 2.0em;
 }
+
+img.no-border {
+	
+	border: none;
+	@include box-shadow(none);
+
+}
