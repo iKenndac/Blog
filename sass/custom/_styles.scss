@@ -19,6 +19,18 @@ body > header {
 	background: none;
 }
 
+/* High Resolution (iPhone 4) */
+
+@media only screen and (max-device-width: 480px) {
+
+img.header-logo {
+	width: 171px;
+	height: 53px;
+	bottom: -25px;
+}
+
+}
+
 body > nav li {
 	position: relative;
 	z-index: 150;
