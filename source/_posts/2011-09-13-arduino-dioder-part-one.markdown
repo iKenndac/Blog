@@ -10,7 +10,7 @@ categories:
 - Nerd++
 ---
 
-{% img center http://danielkennett.org/pictures/for_posts/2011/09/ArduinoHeader.jpg Arduino Breadboard %}
+{% img center http://ikennd.ac/pictures/for_posts/2011/09/ArduinoHeader.jpg Arduino Breadboard %}
 
 A few weeks ago, it came to my attention that IKEA do a set of
 colour-changeable LED strips. I've been looking for a decent way of
@@ -45,7 +45,7 @@ projects for controlling it. The Arduino sketches require the [Arduino software]
 were written on Mac OS X 10.7.
 
 You can download a PDF wiring diagram
-[here](http://danielkennett.org/pictures/ArduinoDioderWiring.pdf).
+[here](http://ikennd.ac/pictures/ArduinoDioderWiring.pdf).
 
 Enjoy!
 
@@ -97,10 +97,10 @@ wiring diagram.
 
 [{% img center http://farm7.static.flickr.com/6172/6144804622_28970d3dd4_z.jpg %}](http://www.flickr.com/photos/24169642@N06/6144804622 "View Dioder Pins on Flickr.com")
 
-{% img center http://danielkennett.org/pictures/for_posts/2011/09/ArduinoDioderWiring.png Arduino + Dioder Wiring %}
+{% img center http://ikennd.ac/pictures/for_posts/2011/09/ArduinoDioderWiring.png Arduino + Dioder Wiring %}
 
 You can download a PDF of the diagram
-[here](http://danielkennett.org/pictures/ArduinoDioderWiring.pdf).
+[here](http://ikennd.ac/pictures/ArduinoDioderWiring.pdf).
 
 ### Part 2: Programming the Arduino
 
@@ -116,7 +116,7 @@ The protocol I implemented is very simple — two constant header bytes,
 12 "body" bytes (one for each red, green and blue pin over four separate
 LED strips) and a checksum byte (a bitwise XOR of all the body bytes).
 
-{% img center http://danielkennett.org/pictures/for_posts/2011/09/ArduinoDioderProtocol.png Arduino + Dioder Protocol %}
+{% img center http://ikennd.ac/pictures/for_posts/2011/09/ArduinoDioderProtocol.png Arduino + Dioder Protocol %}
 
 *A message setting all connected LED strips to white/GBR(255,255,255)*
 
@@ -148,7 +148,7 @@ photo at the start of this post, so I made this very simple application
 of the colour wells — the corresponding LED strip will change colour to
 match!
 
-{% img center http://danielkennett.org/pictures/for_posts/2011/09/DioderColourWells.png Dioder Colour Wells Application %}
+{% img center http://ikennd.ac/pictures/for_posts/2011/09/DioderColourWells.png Dioder Colour Wells Application %}
 
 The full Xcode project can be found over at the project's [home on GitHub](http://www.github.com/iKenndac/Arduino-Dioder-Playground), at
 *Xcode Projects/Dioder Colour Wells/Dioder Colour Wells.xcodeproj*. Just

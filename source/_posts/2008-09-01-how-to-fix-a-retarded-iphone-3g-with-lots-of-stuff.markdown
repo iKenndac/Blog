@@ -11,7 +11,7 @@ categories:
 ---
 
 A while ago, I was having signal problems with my iPhone, and wrote
-about it in my post ["How to fix a retarded iPhone with masking tape"](http://danielkennett.org/blog/2008/02/how-to-fix-a-retarded-iphone-with-masking-tape/). Since then, I've replaced it
+about it in my post ["How to fix a retarded iPhone with masking tape"](http://ikennd.ac/blog/2008/02/how-to-fix-a-retarded-iphone-with-masking-tape/). Since then, I've replaced it
 with an iPhone 3G. Much to my (and lots of other people's) annoyance,
 the iPhone 3G no longer supports charging on the 12V power pins in the
 dock cable - only the 5V USB ones. This is a problem when I want to use
@@ -25,7 +25,7 @@ charging - you can't just give it 5V over the USB power pins - it needs
 the voltages on the USB data pins that'd be present on a high-speed USB
 bus before it accepts the charge.  This is the finished product:
 
-{% img center http://danielkennett.org/pictures/for_posts/2008/09/img_3978.jpg iPod converter box finished %}
+{% img center http://ikennd.ac/pictures/for_posts/2008/09/img_3978.jpg iPod converter box finished %}
 
 **Important Information**
 
@@ -68,7 +68,7 @@ will be bridged to the 5V+ and ground feeds to simulate the voltages of
 a USB high speed bus to make the iPhone pick up the charge. Click for a
 much bigger and clearer version.
 
-[{% img center http://danielkennett.org/pictures/for_posts/2008/09/firewire-usb-charging.png Circuit Diagram %}](http://danielkennett.org/pictures/for_posts/2008/09/firewire-usb-charging.png)
+[{% img center http://ikennd.ac/pictures/for_posts/2008/09/firewire-usb-charging.png Circuit Diagram %}](http://ikennd.ac/pictures/for_posts/2008/09/firewire-usb-charging.png)
 
 **Extracting The Feeds**
 
@@ -78,13 +78,13 @@ the rest of the feeds intact to preserve the quality of the data and
 audio going through the cable. First, strip a few inches of sheathing
 from the cable at your desired location.
 
-[{% img center http://danielkennett.org/pictures/for_posts/2008/09/img_3925.jpg "Stripping the sheathing" %}](http://danielkennett.org/pictures/for_posts/2008/09/img_3925.jpg)
+[{% img center http://ikennd.ac/pictures/for_posts/2008/09/img_3925.jpg "Stripping the sheathing" %}](http://ikennd.ac/pictures/for_posts/2008/09/img_3925.jpg)
 
 Next, cut a slit along the braiding that surrounds the inner feeds and
 leave a couple of centimetres at each end twisted up - we'll join them
 back together with a wire later.
 
-[{% img center http://danielkennett.org/pictures/for_posts/2008/09/img_3927.jpg Feeds %}](http://danielkennett.org/pictures/for_posts/2008/09/img_3927.jpg)
+[{% img center http://ikennd.ac/pictures/for_posts/2008/09/img_3927.jpg Feeds %}](http://ikennd.ac/pictures/for_posts/2008/09/img_3927.jpg)
 
 Next, we need to find the feeds we need to work with. Visit the
 [iPod Dock Connector pinouts reference](http://pinouts.ru/Devices/ipod_pinout.shtml)
@@ -119,7 +119,7 @@ braiding stubs we cut off earlier with a black wire - this is an
 important grounding wire, and needs to be electrically sound. Once done,
 you should have something like this:
 
-[{% img center http://danielkennett.org/pictures/for_posts/2008/09/img_3979.jpg Completed Board %}](http://danielkennett.org/pictures/for_posts/2008/09/img_3979.jpg)
+[{% img center http://ikennd.ac/pictures/for_posts/2008/09/img_3979.jpg Completed Board %}](http://ikennd.ac/pictures/for_posts/2008/09/img_3979.jpg)
 
 **Please Note** that it is very important that you have an adequate heat
 sink in place if you're using a similar voltage regulator to the one I
@@ -145,8 +145,8 @@ It should charge. Finally, go down to your car and check it works there
 If it doesn't, disconnect it immediately and check your design. Now it
 works, package it up inside the project box.
 
-[{% img center http://danielkennett.org/pictures/for_posts/2008/09/img_3980.jpg Project Box %}](http://danielkennett.org/pictures/for_posts/2008/09/img_3980.jpg)
+[{% img center http://ikennd.ac/pictures/for_posts/2008/09/img_3980.jpg Project Box %}](http://ikennd.ac/pictures/for_posts/2008/09/img_3980.jpg)
 
 Enjoy your iPhone 3G!
 
-[{% img center http://danielkennett.org/pictures/for_posts/2008/09/img_3976.jpg Working! %}](http://danielkennett.org/pictures/for_posts/2008/09/img_3976.jpg)
+[{% img center http://ikennd.ac/pictures/for_posts/2008/09/img_3976.jpg Working! %}](http://ikennd.ac/pictures/for_posts/2008/09/img_3976.jpg)

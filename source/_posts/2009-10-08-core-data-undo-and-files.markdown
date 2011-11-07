@@ -222,7 +222,7 @@ stringByAppendingPathComponent:fileName]` works much better.
 This approach really does require a separate controller to keep track of
 what goes where and when. Consider this diagram of what's going on:
 
-{% img center http://danielkennett.org/pictures/for_posts/2009/10/Untitled.png Clarus document resource diagram %}
+{% img center http://ikennd.ac/pictures/for_posts/2009/10/Untitled.png Clarus document resource diagram %}
 
 Where a resource actually is depends on *four* things:
 

@@ -11,9 +11,9 @@ categories:
 - Nerd++
 ---
 
-{% img right http://danielkennett.org/pictures/for_posts/2011/09/DioderFacebookReaction.png Dioder Facebook Reaction %}
+{% img right http://ikennd.ac/pictures/for_posts/2011/09/DioderFacebookReaction.png Dioder Facebook Reaction %}
 
-A couple of weeks ago, I [wrote a post](http://danielkennett.org/blog/2011/09/arduino-dioder-part-one/)
+A couple of weeks ago, I [wrote a post](http://ikennd.ac/blog/2011/09/arduino-dioder-part-one/)
 detailing the process of combining a set of colour-changing IKEA LED
 strips, an Arduino, a few simple electronic components and a lot of
 nerdiness into a project that allowed you to control the colour of the
@@ -95,7 +95,7 @@ of a given image. Since Core Image is badass and much better than me,
 this actually causes all the work to be kept on the graphics card and
 caused CPU usage to tumble.
 
-{% img center http://danielkennett.org/pictures/for_posts/2011/09/DioderScreenColoursApp.png Dioder Screen Colours Screenshot %}
+{% img center http://ikennd.ac/pictures/for_posts/2011/09/DioderScreenColoursApp.png Dioder Screen Colours Screenshot %}
 
 The final project for this post contains two methods of calculating
 colours:
@@ -114,7 +114,7 @@ However, Average RGB works just fine so I never implemented it.
 ### Project Status
 
 As of now ([commit b3a1b17c038458d498d551a18d120435daf9f778](https://github.com/iKenndac/Arduino-Dioder-Playground/commit/b3a1b17c038458d498d551a18d120435daf9f778)),
-the project has undergone a few improvements since [Part 1](http://danielkennett.org/blog/2011/09/arduino-dioder-part-one/) of
+the project has undergone a few improvements since [Part 1](http://ikennd.ac/blog/2011/09/arduino-dioder-part-one/) of
 this series:
 
 -   Removed AMSerialPort for my own DKSerialPort class. AMSerialPort was

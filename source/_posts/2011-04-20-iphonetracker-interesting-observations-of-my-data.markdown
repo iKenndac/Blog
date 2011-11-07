@@ -62,7 +62,7 @@ license agreement nobody reads through, but that's not really an excuse.
 
 ### Interesting parts of my location history
 
-{% img center http://danielkennett.org/pictures/for_posts/2011/04/iPhoneLocationDataGermany.png iPhone Data: Germany %}
+{% img center http://ikennd.ac/pictures/for_posts/2011/04/iPhoneLocationDataGermany.png iPhone Data: Germany %}
 
 **Figure 1:** Driving through Germany. We stayed overnight down near
 Belgium, then drove through Germany the next day before arriving near
@@ -70,7 +70,7 @@ Hamburg for another overnight stop. I had Data Roaming switched on for a
 while at our stopovers, and occasionally switched it on throughout the
 drive to check Twitter.
 
-{% img center http://danielkennett.org/pictures/for_posts/2011/04/iPhoneDataSweden.png iPhone Data: Sweden %}
+{% img center http://ikennd.ac/pictures/for_posts/2011/04/iPhoneDataSweden.png iPhone Data: Sweden %}
 
 **Figure 2:** Driving through Sweden. My data is on permanently in Sweden,
 of course, so the are a lot more cell towers here. There's a very
@@ -78,7 +78,7 @@ interesting hole in the data towards the South, which isn't a one-time
 thing — this data was collected over three separate trips through the
 country: one in August 2010, the other two in March 2011.
 
-{% img center http://danielkennett.org/pictures/for_posts/2011/04/iPhoneDataFerry.png iPhone Data: Ferry %}
+{% img center http://ikennd.ac/pictures/for_posts/2011/04/iPhoneDataFerry.png iPhone Data: Ferry %}
 
 **Figure 3:** Sailing past England. This data is from two separate trips,
 both in March 2011, on a ferry from Denmark to the UK. The ferry sailed

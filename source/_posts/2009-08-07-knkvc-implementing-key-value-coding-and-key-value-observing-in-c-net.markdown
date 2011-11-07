@@ -11,7 +11,7 @@ categories:
 ---
 
 **Note:** This is full-on, hardcore *Computer Science* right here. If
-you're here to read about [my cute doggie](http://danielkennett.org/blog/2009/02/goggie/) or how I'm the [best boyfriend ever](http://danielkennett.org/blog/2009/05/romance-and-nerdiness-the-perfect-couple/), this post isn't for you.
+you're here to read about [my cute doggie](http://ikennd.ac/blog/2009/02/goggie/) or how I'm the [best boyfriend ever](http://ikennd.ac/blog/2009/05/romance-and-nerdiness-the-perfect-couple/), this post isn't for you.
 
 **Want the code first?**
 
@@ -67,7 +67,7 @@ application.
 ### How does it work? Magic, right?
 
 
-{% img right http://danielkennett.org/pictures/for_posts/2009/08/KNKVCProjectSml.PNG KNKVC Project %}
+{% img right http://ikennd.ac/pictures/for_posts/2009/08/KNKVCProjectSml.PNG KNKVC Project %}
 Three things made me attempt to implement KVC/O in .NET...
 
 1. For ages I've pondered how Key-Value Observing in Cocoa works. I get
@@ -106,7 +106,7 @@ implementation that's mostly full of null checking. Unfortunately, it's
 not simple enough to describe succinctly with words. Allow me to
 present... a *diagram*:
 
-{% img center http://danielkennett.org/pictures/for_posts/2009/08/KNKVO-Path-Flow.png KNKVO Path Flow %}
+{% img center http://ikennd.ac/pictures/for_posts/2009/08/KNKVO-Path-Flow.png KNKVO Path Flow %}
 
 At the moment, let's just pretend the automatic stuff actually works and
 `KNKVOCore` gets notifications of then a property is about to change and

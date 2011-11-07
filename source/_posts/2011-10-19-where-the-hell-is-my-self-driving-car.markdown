@@ -10,9 +10,9 @@ categories:
 
 We've been promised self-driving cars for years. Hell, even *flying* cars! Where are they? Nowhere, that's where! 
 
-Well, I've decided to take this into my own hands. In my [previous post](http://danielkennett.org/blog/2011/10/arduino-dioder-part-three/) I mentioned that I've got a "more ambitious" Arduino project in the works, and today it arrived:
+Well, I've decided to take this into my own hands. In my [previous post](http://ikennd.ac/blog/2011/10/arduino-dioder-part-three/) I mentioned that I've got a "more ambitious" Arduino project in the works, and today it arrived:
 
-{% img center http://danielkennett.org/pictures/rc/dualhunter_box.jpg DualHunter Box %}
+{% img center http://ikennd.ac/pictures/rc/dualhunter_box.jpg DualHunter Box %}
 
 It turns out that interfacing with an RC is dead-simple - both the servo and the speed controller use the servo electronic interface, which the Arduino has libraries for.
 

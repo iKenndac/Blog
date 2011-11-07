@@ -10,7 +10,7 @@ categories:
 - Cars, Models &amp; Gadgets
 ---
 
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://danielkennett.org/pictures/for_posts/2010/06/upsheader.jpg" border="0" alt="UPS Truck" width="540" height="186" /></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://ikennd.ac/pictures/for_posts/2010/06/upsheader.jpg" border="0" alt="UPS Truck" width="540" height="186" /></p>
 <h3>9:30am</h3>
 <p>"Ha! Suckers!" I thought, ambling into work at 9:30, pleased at being almost on time for work for once. I'd queued up at silly-o'clock once before, for the launch of the iPhone 3G two years ago. It hadn't gone well — my store ran out of iPhones before I got to the front of the queue and I wasn't that far back at all.</p>
 <p>For the iPhone 4, I pre-ordered for delivery instead. I sat at work <a href="http://twitter.com/iKenndac/status/16881412096">smugly</a> <a href="http://twitter.com/iKenndac/status/16925130048">tweeting</a> about not having to queue. You can set your watch by the UPS van here — if your watch is only accurate to 15-minutes, at least — so I was confident I'd have my iPhone by 4pm.</p>

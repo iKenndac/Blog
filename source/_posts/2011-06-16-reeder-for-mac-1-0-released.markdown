@@ -10,7 +10,7 @@ categories:
 - General
 ---
 
-A while ago, I posed [an article](http://danielkennett.org/blog/2010/12/analysing-a-touch-to-desktop-ui-port-using-fitts-law-reeder/)
+A while ago, I posed [an article](http://ikennd.ac/blog/2010/12/analysing-a-touch-to-desktop-ui-port-using-fitts-law-reeder/)
 discussing Reeder's UI, and how it doesn't really fit in with a desktop
 environment. That post got a lot of attention, and some people got
 really angry with me and misquoted me and sent hysterical emails and so

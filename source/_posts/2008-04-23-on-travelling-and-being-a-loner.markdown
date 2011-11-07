@@ -17,7 +17,7 @@ at the massive amount of money that's just been added to my total debt
 confirmation page appeared in my browser I received a *text* from my
 credit card company telling me I was approaching my limit!)), I realised
 just how much time I'll be spending on one of these this year:
-[![image](http://danielkennett.org/pictures/for_posts/2008/04/023jumbo_468x329.jpg "BA 747")](http://danielkennett.org/pictures/for_posts/2008/04/023jumbo_468x329.jpg)
+[![image](http://ikennd.ac/pictures/for_posts/2008/04/023jumbo_468x329.jpg "BA 747")](http://ikennd.ac/pictures/for_posts/2008/04/023jumbo_468x329.jpg)
 Note to plane nerds: I don't know if that's actually the exact model of
 plane I'll be flying on. In June, I'm flying to San Francisco and back,
 which is approximately 5,500 miles each way. In December I'm flying to
@@ -26,15 +26,15 @@ miles each way. So, assuming that the planes fly in fairly straight
 lines to their destinations (which I'm well aware that they don't), I'll
 be flying approximately 30,000 miles this year! To show this small feat,
 allow me to present a map:
-[![image](http://danielkennett.org/pictures/for_posts/2008/04/maps.jpg "maps")](http://danielkennett.org/pictures/for_posts/2008/04/maps.jpg)
+[![image](http://ikennd.ac/pictures/for_posts/2008/04/maps.jpg "maps")](http://ikennd.ac/pictures/for_posts/2008/04/maps.jpg)
 It'd actually be less distance to fly *around the world* from London to
 America to Australia and back to London! Normally, I'd be exited about
 this. And this time is no different - I had an amazing time in San
 Francisco and California last time I was there, which I
-[documented](http://danielkennett.org/blog/2006/08/wwdc-day-1/)
-[really](http://danielkennett.org/blog/2006/08/wwdc-2006/)
-[quite](http://danielkennett.org/blog/2006/08/the-day-to-end-all-days/)
-[concisely](http://danielkennett.org/blog/2006/08/its-a-mini-adventure/). San Francisco is an amazing
+[documented](http://ikennd.ac/blog/2006/08/wwdc-day-1/)
+[really](http://ikennd.ac/blog/2006/08/wwdc-2006/)
+[quite](http://ikennd.ac/blog/2006/08/the-day-to-end-all-days/)
+[concisely](http://ikennd.ac/blog/2006/08/its-a-mini-adventure/). San Francisco is an amazing
 city, and there's something about being in a brand new place halfway
 around the world all on your own that's somehow empowering - it's hard
 to describe. However, I'm a little worried that this time it won't be as

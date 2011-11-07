@@ -12,5 +12,5 @@ categories:
 
 For the second time in it's 2 year and 6 month life, my RX-8 has ended up on the cover of the RX-8 Owner's Club magazine:
 
-<a href='http://danielkennett.org/pictures/for_posts/2008/02/img_3808.jpg' title='RX-8'><img src='http://danielkennett.org/pictures/for_posts/2008/02/img_3808.jpg' alt='RX-8' /></a>
+<a href='http://ikennd.ac/pictures/for_posts/2008/02/img_3808.jpg' title='RX-8'><img src='http://ikennd.ac/pictures/for_posts/2008/02/img_3808.jpg' alt='RX-8' /></a>
 

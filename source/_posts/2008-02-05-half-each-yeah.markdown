@@ -12,4 +12,4 @@ categories:
 
 Apparently, Tim thinks I should lose weight. My helping of pancakes is on the left. 
 
-<a href='http://danielkennett.org/pictures/for_posts/2008/02/pancakes.jpg' title='Pancakes'><img src='http://danielkennett.org/pictures/for_posts/2008/02/pancakes.jpg' alt='Pancakes' /></a>
+<a href='http://ikennd.ac/pictures/for_posts/2008/02/pancakes.jpg' title='Pancakes'><img src='http://ikennd.ac/pictures/for_posts/2008/02/pancakes.jpg' alt='Pancakes' /></a>
