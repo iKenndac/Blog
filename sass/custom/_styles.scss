@@ -2,33 +2,73 @@
 // Add styles here to make changes without digging in too much
 
 html {
-	background: #042335 url('/octo/images/line-tile.png?1318700504') top left;
-}
-
-img.header-logo {
-	float: right;
-	position: relative;
-	right: 0px;
-	bottom: -50px;
-	z-index: 100;
+	background: #042335 url('/images/line-tile.png?1318700504') top left;
 }
 
 body > header {
-	padding-bottom: 0.0em;
-	padding-top: 0.0em;
 	background: none;
+	padding-bottom: 25px;
+}
+
+body > header div {
+	position: relative;
+	display: inline-block;
+	@include border-radius(20px);
+	background: #E8E8E8;
+	@include background(image-url('noise.png'), linear-gradient(white, #EEE));
+	padding: 10px; 
+	padding-left: 20px;
+	padding-right: 20px;
+	@include box-shadow(2px 2px 2px black);
+}
+
+body > header h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 38px;
+	@include text-shadow(0px 1px white);
+}
+
+body > header p {
+	margin-bottom: 0px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #AAA;
+}
+
+body > header div a {
+	color: #111;
+	text-decoration: none;
+}
+
+body > header div a:hover {
+	color: #111;
+	text-decoration: none;
+}
+
+body > header div a:visited {
+	color: #111;
+	text-decoration: none;
+}
+
+/* creates triangle */
+body > header div:after {
+	content: "";
+	display: block; /* reduce the damage in FF3.0 */
+	position: absolute;
+	bottom: -15px;
+	left: 45px;
+	width: 0;
+	border-width: 15px 15px 0;
+	border-style: solid;
+	border-color: #EEE transparent;
 }
 
 /* High Resolution (iPhone 4) */
 
 @media only screen and (max-device-width: 480px) {
-
-img.header-logo {
-	width: 171px;
-	height: 53px;
-	bottom: -25px;
+body > header h1 {
+	font-size: 36px;
 }
-
 }
 
 body > nav li {
@@ -40,11 +80,7 @@ body > nav {
 	@include border-top-radius(.4em);
 }
 
-body > nav ul.subscription {
-	display: none;
-}
-
-body > nav form {
+input.search {
 	display: none;
 }
 
@@ -57,7 +93,6 @@ body > nav form {
 }
 
 img.no-border {
-	
 	border: none;
 	@include box-shadow(none);
 
