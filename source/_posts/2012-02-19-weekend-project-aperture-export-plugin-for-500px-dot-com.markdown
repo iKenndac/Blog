@@ -11,7 +11,7 @@ categories:
 
 [500px.com](http://500px.com/) is a pretty awesome new(ish) photo site. I really prefer its layout and display of photos over Flickr, in part because it simply displays the photos _bigger_, and the photos are the most important thing!
 
-They've been saying for a while now that an official Aperture Export plugin is coming, and there seems to be a [lot](http://support.500px.com/customer/portal/questions/182491-5-px-upload-plugin-for-apple-aperture) of [demand](http://support.500px.com/customer/portal/questions/153420-aperture-plugin-). Well, I got bored of waiting and thre together my own. 
+They've been saying for a while now that an official Aperture Export plugin is coming, and there seems to be a [lot](http://support.500px.com/customer/portal/questions/182491-5-px-upload-plugin-for-apple-aperture) of [demand](http://support.500px.com/customer/portal/questions/153420-aperture-plugin-). Well, I got bored of them taking their sweet-ass time and threw together my own.
 
 It requires Mac OS X 10.7 (Lion) and Aperture 3.x, and do bear in mind that I made this in less than 48 hours, so it may be buggy and it's certainly light on features. But, it gets my photos directly from Aperture into 500px, so I'm happy!
 
