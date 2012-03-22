@@ -7,7 +7,7 @@ require "stringex"
 ssh_user       = "dkennett@ikennd.ac"
 ssh_port       = "22"
 document_root  = "/srv/www/danielkennett.org/public_html/"
-rsync_delete   = true
+rsync_delete   = false
 deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy
