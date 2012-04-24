@@ -8,9 +8,9 @@ slug: augraph-basics-in-cocoalibspotify
 categories:
 ---
 
-Core Audio is one of the trickier frameworks in the Mac and iOS arsenal, but is incredibly powerful once you manage to tame it. I've been spending some time at Spotify getting to grips with it, and have released some Core Audio code as part of the open-source [https://github.com/spotify/cocoalibspotify](CocoaLibSpotify) library.
+Core Audio is one of the trickier frameworks in the Mac and iOS arsenal, but is incredibly powerful once you manage to tame it. I've been spending some time at Spotify getting to grips with it, and have released some Core Audio code as part of the open-source [CocoaLibSpotify](https://github.com/spotify/cocoalibspotify) library.
 
-CocoaLibSpotify is an Objective-C wrapper around the libSpotify library, which is a C API providing access to Spotify's service for music streaming, playlists, etc etc. A more advanced example of what you can do with (Cocoa)LibSpotify is my open-source [https://github.com/iKenndac/Viva](Viva) Spotify client.  
+CocoaLibSpotify is an Objective-C wrapper around the libSpotify library, which is a C API providing access to Spotify's service for music streaming, playlists, etc etc. A more advanced example of what you can do with (Cocoa)LibSpotify is my open-source [Viva](https://github.com/iKenndac/Viva) Spotify client.  
 
 CocoaLibSpotify contains a class called `SPCoreAudioController` that deals with getting audio data from libSpotify, through a Core Audio `AUGraph` and to the system audio output. The class also provides an easy way of customising the graph, and this post discusses the basics of Core Audio, `AUGraph`, and customising `SPCoreAudioController` with a 10-band graphic equalizier.
 
@@ -26,7 +26,7 @@ Core Audio and libSpotify have two opposing methods of dealing with audio data.
 
 This means that, unfortunately, we can't simply hook libSpotify up to Core Audio and get playback happening. Instead, we need to store the audio provided by libSpotify into a buffer which we'll then read from when Core Audio requests some audio data.
 
-To solve this in an elegant manner, CocoaLibSpotify includes a [http://en.wikipedia.org/wiki/Circular_buffer](ring buffer), which is a special kind of buffer that allows data to be read and written to is without reallocating memory, which can be expensive.
+To solve this in an elegant manner, CocoaLibSpotify includes a [ring buffer](http://en.wikipedia.org/wiki/Circular_buffer), which is a special kind of buffer that allows data to be read and written to is without reallocating memory, which can be expensive.
 
 ### Audio Units and AUGraph ###
 
@@ -187,5 +187,5 @@ The sample project then has ten continuous vertical sliders all hooked up to dif
 
 ### Further Reading ###
 
-[http://my.safaribooksonline.com/book/audio/9780321636973](Learning Core Audio: A Hands-On Guide to Audio Programming for Mac and iOS) by Chris Adamson and Kevin Avila.
+[Learning Core Audio: A Hands-On Guide to Audio Programming for Mac and iOS](http://my.safaribooksonline.com/book/audio/9780321636973) by Chris Adamson and Kevin Avila.
 
