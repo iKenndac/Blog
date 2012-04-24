@@ -99,8 +99,6 @@ In this first example, set up a description of the EQ Audio Unit then have the g
 
 {% endcodeblock %}
 
-### Finishing Up & Adding UI ###
-
 At this point, our EQ is set up and inserted into the audio controller's graph. All that's left to do now is hook it up to the provided source and destination nodes so audio gets piped through it:
 
 {% codeblock lang:objc %}
@@ -140,6 +138,8 @@ It's important to do cleanup as well so we don't leak memory and cause problems.
 }
 
 {% endcodeblock %}
+
+### Finishing Up & Adding UI ###
 
 Now we have an EQ inserted into our Core Audio graph, we need to control the levels! To do this, the sample project implements the following method in `EQCoreAudioController`, which applies up to ten band values.
 
