@@ -40,15 +40,15 @@ Now to the fun part. The web page is a simple PHP page that takes in the numbers
 
 This is the page when first visited:
 
-<a href="http://ikennd.ac/pictures/for_posts/2009/05/alanas-birthday-adventure.png"><img src="http://ikennd.ac/pictures/for_posts/2009/05/alanas-birthday-adventure.png" alt="alanas-birthday-adventure" title="alanas-birthday-adventure" width="341" height="248" class="aligncenter size-full wp-image-336" /></a>
+{% img center http://ikennd.ac/pictures/for_posts/2009/05/alanas-birthday-adventure.png %}
 
 When you enter all of the numbers correctly, the page changes to this:
 
-<a href="http://ikennd.ac/pictures/for_posts/2009/05/alanas-birthday-adventure-2.png"><img src="http://ikennd.ac/pictures/for_posts/2009/05/alanas-birthday-adventure-2.png" alt="alanas-birthday-adventure-2" title="alanas-birthday-adventure-2" width="351" height="233" class="aligncenter size-full wp-image-337" /></a>
+{% img center http://ikennd.ac/pictures/for_posts/2009/05/alanas-birthday-adventure-2.png %}
 
 Now it's time to make and hide the cards. The five clues inside the house were hidden inside drawers and scanners and things just so they weren't stumbled upon while looking for another clue. However, once outside you don't want to spend ages searching through the wrong bush so the cards were fairly open once you figured out the previous clue and got to the right place. Two of the clues were fairly close together in our village of Clifton, and two others were in the Chicksands woods nearby. 
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/05/clues.png" alt="Map" title="Map" width="501" height="284" class="aligncenter size-full wp-image-354" />
+{% img center http://ikennd.ac/pictures/for_posts/2009/05/clues.png %}
 
 <p style="text-align:center;">Above: The location of the clues outside our house.</p>
 
@@ -56,15 +56,15 @@ Now it's time to make and hide the cards. The five clues inside the house were h
 
 So, on Tuesday morning I wake up, make excuses about having to to work on her birthday and screech out of the house. Instead of going to work, I'm driving around mid Bedfordshire attaching clues to things hoping my girlfriend doesn't catch up with me.
 
-<a href="http://ikennd.ac/pictures/for_posts/2009/05/duckpond.jpg"><img src="http://ikennd.ac/pictures/for_posts/2009/05/duckpond.jpg" alt="Clue Card at the duck pond" title="Clue Card at the duck pond" width="400" height="266" class="aligncenter size-full wp-image-355" /></a>
+{% img center http://ikennd.ac/pictures/for_posts/2009/05/duckpond.jpg %}
 
-<a href="http://ikennd.ac/pictures/for_posts/2009/05/chicksands.jpg"><img src="http://ikennd.ac/pictures/for_posts/2009/05/chicksands.jpg" alt="Clue at Chicksands" title="Clue at Chicksands" width="400" height="266" class="aligncenter size-full wp-image-356" /></a>
+{% img center http://ikennd.ac/pictures/for_posts/2009/05/chicksands.jpg %}
 
 <strong>Debrief</strong>
 
 In short, the mission was a success. After worrying that the cards would go missing, or my girlfriend wouldn't be able to solve the clues, or that the Waterstones wouldn't give her the Reader, everything went off without a hitch. She did get stuck on a couple of the clues, but a helpful nudge via text message got her back on track. It took her between two and three hours to complete the puzzle - which is a good amount of time, I think. Too fast and it's almost not worth the effort, but too long and it gets boring. 
 
-<a href="http://ikennd.ac/pictures/for_posts/2009/05/cards.jpg"><img src="http://ikennd.ac/pictures/for_posts/2009/05/cards.jpg" alt="Clues" title="Clues" width="400" height="267" class="aligncenter size-full wp-image-353" /></a>
+{% img center http://ikennd.ac/pictures/for_posts/2009/05/cards.jpg %}
 
 I was worried that it was a stupid idea at first, but everyone I told (including the staff at Waterstone's) thought it was a wonderful idea, and I have to admit I'd really enjoy having something like this done for me. Of course, if you're less of a nerd than me (highly likely), you can do it without custom web scripts and GPS co-ordinates. I thought about leaving them out myself, but couldn't resist an excuse to code a fun little web page. 
 
