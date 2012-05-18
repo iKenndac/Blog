@@ -7,7 +7,7 @@ status: publish
 title: The Performa of my Childhood
 wordpress_id: '570'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 <p>Sometimes you see something that you absolutely <em>must</em> have. The reason might be stupid, but the instant you see this thing you know you have to have it in your life. A few days ago I saw something on eBay that had just that effect on me. Thankfully, I won the auction for only £10 — making it the least expensive "must have" item ever.</p>

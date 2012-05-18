@@ -7,7 +7,7 @@ status: publish
 title: PRS-505 and PRS-600 display comparison
 wordpress_id: '423'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 I bought my Sony Reader PRS-505 nearly a year ago, and as a direct result the amount of books I read skyrocketed from around 1 per year to 2-3 per month. I adore this thing, and even considered importing a PRS-700 from the USA — but I was put off by the reports of a very <a href="http://gizmodo.com/5097999/sony-prs+700-reader-review-blinding-glare-kills-all-improvements">glare</a> <a href="http://www.geardiary.com/2008/11/25/this-just-in-sony-prs-700-ereader-is-a-glare-magnet/">prone</a> screen. For the first time in a long time, I'd actually prefer to keep my old gadget than replace it with the "better" model. In my opinion, an eBook Reader should be like a car - provide enough technology to get the job done well, and don't distract me with needless crap, especially if it gets in the way of the primary functionality.

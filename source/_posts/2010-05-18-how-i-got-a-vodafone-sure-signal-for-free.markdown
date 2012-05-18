@@ -7,7 +7,7 @@ status: publish
 title: How I got a Vodafone Sure Signal for FREE!
 wordpress_id: '548'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 <!--more--><p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://ikennd.ac/pictures/for_posts/2010/05/3gheader.jpg" border="0" alt="3gheader.jpg" width="540" height="190" /></p>

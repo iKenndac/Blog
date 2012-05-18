@@ -7,7 +7,7 @@ status: publish
 title: Cheaply Mounting a Gaming Steering Wheel
 wordpress_id: '702'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 Ladies and gentlemen, I'm serious about my virtual racing. I've been a

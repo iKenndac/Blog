@@ -7,7 +7,7 @@ status: publish
 title: HelmetCam
 wordpress_id: '5'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 When on a bikeride with Stuart, he started doing daft things. Some of them were quite cool, and one of us said, "Wouldn't it be cool if we could video this?" Both of us thought it was a great idea, but we didn't have a video camera. Oh well, dream over. Then, something hit me.

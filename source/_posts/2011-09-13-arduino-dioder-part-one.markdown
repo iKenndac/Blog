@@ -7,7 +7,7 @@ status: publish
 title: 'Nerd++: Controlling Dioder RGB LED Strips with Arduino, Pt. 1 - Getting Started'
 wordpress_id: '748'
 categories:
-- Nerd++
+- Programming/Work
 ---
 
 {% img center http://ikennd.ac/pictures/for_posts/2011/09/ArduinoHeader.jpg Arduino Breadboard %}

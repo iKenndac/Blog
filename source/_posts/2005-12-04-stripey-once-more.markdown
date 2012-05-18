@@ -7,7 +7,7 @@ status: publish
 title: Stripey Once More!
 wordpress_id: '22'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 After a brief jaunt of nakedness, my car is finally back in it's stripes. These new stripes were done much better than the old ones, and the two places the old ones were cracking really quite badly have been done so that they won't crack at all. Awesomeness. 

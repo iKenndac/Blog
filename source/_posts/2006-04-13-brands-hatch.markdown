@@ -7,7 +7,7 @@ status: publish
 title: Brands Hatch
 wordpress_id: '26'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 On Tuesday, 11th April I went on a track evening at Brands Hatch. When we got there, it was <i>hammering</i> it down with rain, but we went out anyway! After a briefing, the rest of the event was "open pit lane", which means you're free to use the circuit and pit lanes as you wish - we found a free garage and used it as a base for the evening. 

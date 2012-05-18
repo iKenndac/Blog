@@ -7,7 +7,7 @@ status: publish
 title: Round the 'Ring
 wordpress_id: '20'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 For these, you'll need the latest version of <a href="http://www.apple.com/quicktime/download/">QuickTime</a>.

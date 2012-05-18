@@ -7,7 +7,7 @@ status: publish
 title: Day-To-Day with a Sony Reader on a Mac in the UK
 wordpress_id: '340'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 Look around the web, and you'll find many a review of the Sony Reader. If you're looking for another one, you're in the wrong place - this is an account of managing the device on a Mac.

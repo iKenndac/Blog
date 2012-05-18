@@ -7,7 +7,7 @@ status: publish
 title: 'A Short Story: UPS Blues'
 wordpress_id: '574'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 <p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://ikennd.ac/pictures/for_posts/2010/06/upsheader.jpg" border="0" alt="UPS Truck" width="540" height="186" /></p>

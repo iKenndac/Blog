@@ -7,7 +7,7 @@ status: publish
 title: Macro Lens Tomfoolery
 wordpress_id: '97'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 <a href="http://ikennd.ac/photocasts/c30macro/index.rss"><img src="http://ikennd.ac/images/photocast_sub.png"/></a>

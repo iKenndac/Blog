@@ -7,7 +7,7 @@ status: publish
 title: New Car!
 wordpress_id: '11'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 The plan <b>was</b> to save up over a period of three years, and get a shiny new car at the end of it when I graduated university. However, that plan sucked. Saving up money is the most boring thing to do in the world, ever. 

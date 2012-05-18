@@ -6,7 +6,7 @@ date: 2012-02-24 13:25
 comments: true
 slug: ps-vita-mini-review
 categories: 
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 [{% img center http://farm8.staticflickr.com/7061/6925488589_47166469fc_z.jpg Dragons LOVE Rayman %}](http://www.flickr.com/photos/ikenndac/6925488589/)

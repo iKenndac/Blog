@@ -7,7 +7,7 @@ status: publish
 title: New Bike, and the final nail in the RX-8's coffin
 wordpress_id: '75'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 Last weekend I went up to visit Stuart, and asked him for advice on a new bike. I actually ended up buying one up there - a <a href="http://www.specialized.com/bc/SBCBkModel.jsp?spid=33436">Specialized Stumpjumper FSR Comp</a>. It's a full-suspension mountain bike, and cost <em>far</em> too much money.

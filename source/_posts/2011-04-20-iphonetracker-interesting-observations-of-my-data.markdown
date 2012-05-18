@@ -7,7 +7,7 @@ status: publish
 title: 'iPhoneTracker: Interesting Observations Of My Data'
 wordpress_id: '726'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 [iPhoneTracker](http://petewarden.github.com/iPhoneTracker/) came out

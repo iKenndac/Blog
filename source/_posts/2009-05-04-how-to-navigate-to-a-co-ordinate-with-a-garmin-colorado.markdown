@@ -7,7 +7,7 @@ status: publish
 title: How to navigate to a co-ordinate with a Garmin Colorado
 wordpress_id: '325'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 I've had a Garmin Colorado for <a href="http://ikennd.ac/blog/2008/05/gps-for-fun/" target="_top">quite some time</a> now, and although it's great, it's really a pain in the ass to just enter a GPS co-ordinate and go there. I couldn't find a simple, with-pictures guide online, so I thought I'd create one.

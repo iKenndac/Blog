@@ -7,7 +7,7 @@ status: publish
 title: On Great Customer Service
 wordpress_id: '307'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 In November 2008, I bought a pair of Sennheiser <a href="http://www.sennheiser.com/sennheiser/home_en.nsf/product.html?ReadForm&path=private_headphones_audiophile-headphones&product=005343&row=2" target=_"blank">HD 595</a> headphones. A few weeks ago, they developed a really annoying rattle in the left can, so I set about looking for the receipt so I could take them back. It or the original packaging were nowhere to be found.

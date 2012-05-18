@@ -7,7 +7,7 @@ status: publish
 title: It Has Begun!
 wordpress_id: '191'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 A <del>little while</del> year ago, I <a href="http://ikennd.ac/blog/2008/01/unavoidable-regression/">wrote</a> about although I'm all grown up and have a job and live in a house <i>and</i> drive a car, I still want a kick-ass dog and a model railway.

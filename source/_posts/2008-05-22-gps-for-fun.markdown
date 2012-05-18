@@ -7,7 +7,7 @@ status: publish
 title: GPS for fun?
 wordpress_id: '147'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 These days, when you talk about GPS people tend to think of the TomTom type of GPS unit that takes your car to the right place. However, GPS can be used to have fun, too. 

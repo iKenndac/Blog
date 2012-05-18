@@ -7,7 +7,7 @@ status: publish
 title: Things I Learned On Holiday
 wordpress_id: '188'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 - General
 ---
 

@@ -7,7 +7,7 @@ status: publish
 title: My Stripey, Spinning, Trackday RX-8
 wordpress_id: '19'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 <b>Note: For the videos below, you need the latest version of <a href="http://www.apple.com/quicktime/download/">QuickTime</a>. </b>

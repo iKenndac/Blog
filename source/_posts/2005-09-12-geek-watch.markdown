@@ -7,7 +7,7 @@ status: publish
 title: Geek Watch
 wordpress_id: '15'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 ... as in a watch for geeks, rather than watching geeks. 

@@ -6,7 +6,7 @@ date: 2012-04-08 13:39
 comments: true
 slug: gps-topo-and-the-great-outdoors
 categories: 
-- General
+- A Nerd Outdoors
 ---
 
 Software that comes with devices, 90% of the time, isn't even worth installing. iTunes is almost universally hated. TomTom HOME is awful. *Anything* written by Sony makes me want to throw my computer out the window.

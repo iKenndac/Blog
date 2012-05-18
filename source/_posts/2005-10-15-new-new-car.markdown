@@ -7,7 +7,7 @@ status: publish
 title: New New Car
 wordpress_id: '16'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 Ok, so the Astra wasn't working out. Well, it <i>was</i>, but my business is going well and I can afford something a bit sportier. 

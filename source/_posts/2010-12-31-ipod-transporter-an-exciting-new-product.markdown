@@ -7,7 +7,7 @@ status: publish
 title: 'iPod Transporter: An Exciting New Product!'
 wordpress_id: '678'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 <p>Are you sick and tired of having your collection of nearly 20 test iPods for work cluttering up your desk, getting lost and broken?</p>

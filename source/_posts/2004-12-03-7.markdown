@@ -7,7 +7,7 @@ status: publish
 title: Desktacular!
 wordpress_id: '7'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 When you live on your own, computing on the dining room table isn't really a problem. Especially if you're a geek AND a student. When you have mates round, you just eat pizza on the sofa. 

@@ -7,7 +7,7 @@ status: publish
 title: How to fix a retarded iPhone 3G with... lots of stuff.
 wordpress_id: '163'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 A while ago, I was having signal problems with my iPhone, and wrote

@@ -6,7 +6,7 @@ date: 2012-03-06 23:35
 comments: true
 slug: public-shaming-the-only-way
 categories: 
-- General
+- A Nerd Outdoors
 ---
 
 Let's be honest from the outset — I'm a big fat guy. During my third year at University (which was actually a placement year) I got an office job and piled on the weight stupidly fast. At one point I was so worried about it that I went to the doctor to get advice on how to best get healthy again. He did a couple of tests and said that I was fine, and that if I *really* wanted to lose weight, I should do it slowly rather than crash dieting.

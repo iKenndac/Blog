@@ -7,7 +7,7 @@ status: publish
 title: Why crashing your car on purpose is a smart thing to do… Sometimes.
 wordpress_id: '508'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 I'm writing this on one of the three or four days per year that we get a healthy covering of snow here in the UK, and naturally the news is <a href="http://news.bbc.co.uk/1/hi/uk/8420057.stm">filled</a> <a href="http://news.bbc.co.uk/1/hi/england/sussex/8420021.stm">with</a> <a href="http://news.bbc.co.uk/1/hi/england/oxfordshire/8419831.stm">stories</a> <a href="http://news.bbc.co.uk/1/hi/england/8420093.stm">about</a> how there's chaos on the roads and how we should all be huddled up at home eating canned soup. 

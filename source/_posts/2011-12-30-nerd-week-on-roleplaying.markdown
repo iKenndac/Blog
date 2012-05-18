@@ -6,7 +6,7 @@ date: 2011-12-30 10:08
 comments: true
 slug: nerd-week-on-roleplaying
 categories: 
-- Nerd++
+- General
 ---
 
 I was fortunate enough to be able to have the week between Christmas and New Year off work, and I dedicated the entire week to nerdly persuits. I sense a new tradition coming on! One of the things I did this week was start playing Dungeons and Dragons, which sparked off a thought about how I play games.

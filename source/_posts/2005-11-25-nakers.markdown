@@ -7,7 +7,7 @@ status: publish
 title: Nakers!
 wordpress_id: '21'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 For the past week I've been driving around in a Hyundai Getz. 66bhp! Anyway, I now have my car back - with a Mazdaspeed body kit attached. Only problem? It's naked! 

@@ -7,7 +7,7 @@ status: publish
 title: Mountain Biking at the 'Ring
 wordpress_id: '121'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 <a href="http://ikennd.ac/photocasts/bikering/index.rss"><img src="http://ikennd.ac/images/photocast_sub.png"/></a>

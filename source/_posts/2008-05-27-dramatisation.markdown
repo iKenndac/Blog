@@ -7,7 +7,7 @@ status: publish
 title: Dramatisation
 wordpress_id: '148'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 Last night, one of the cars outside thought it would be <em>hilarious</em> to constantly sound its alarm for almost an hour. At first, Tim thought it was his car and came running downstairs shouting for me to go first, for some reason thinking that my five second headstart would make a difference to whatever situation we'd be greeted with. I disagreed, and kept my lazy ass inside. 

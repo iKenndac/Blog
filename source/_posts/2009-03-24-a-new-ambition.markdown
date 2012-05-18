@@ -7,7 +7,7 @@ status: publish
 title: A New Ambition
 wordpress_id: '296'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 Today, I've decided to add a new ambition to my list: 

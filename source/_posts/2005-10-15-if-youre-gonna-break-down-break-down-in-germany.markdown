@@ -7,7 +7,7 @@ status: publish
 title: If you're gonna break down, break down in Germany!
 wordpress_id: '18'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 So, a couple of weeks ago the grand tour of Europe in my RX-8 happened. I drove from here in the UK to the Nürburgring (a race track) in Germany for a bash round that, then to the south of France to visit relatives, then back home. 

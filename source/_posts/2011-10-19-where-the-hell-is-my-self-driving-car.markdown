@@ -5,7 +5,7 @@ title: "Where The Hell Is My Self-Driving Car?"
 date: 2011-10-19 18:42
 comments: true
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 We've been promised self-driving cars for years. Hell, even *flying* cars! Where are they? Nowhere, that's where! 

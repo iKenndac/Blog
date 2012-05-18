@@ -7,7 +7,7 @@ status: publish
 title: Unavoidable Regression
 wordpress_id: '36'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 In the past year (or two?), it would seem I've gotten all growed up and moved into my own house, settled into a jobs that's only slightly less stressful than <del>herding</del> teaching 5-year-olds and even got one of those long term girlfriend things you read about in the magazines. 

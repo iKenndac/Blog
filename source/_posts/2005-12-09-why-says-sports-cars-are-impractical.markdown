@@ -7,7 +7,7 @@ status: publish
 title: Who says sports cars are impractical?
 wordpress_id: '23'
 categories:
-- Cars, Models &amp; Gadgets
+- Gadgets
 ---
 
 When I spread the word that I'd got my RX-8, I was immediately given lots of reasons by mother why it wasn't a good idea. It's too fast! It's too expensive! You're too young! It's impractical! 
