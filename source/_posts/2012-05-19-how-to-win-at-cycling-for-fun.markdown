@@ -13,7 +13,7 @@ A while ago, I [publicly announced](http://ikennd.ac/blog/2012/03/public-shaming
 
 This wasn't the original plan — I was going to get a FitBit and use the Personal Trainer feature to slowly build up the amount of walking and exercise I do to improve fitness. I did get a FitBit and while I really enjoy having it, my use for it now is simply to motivate me to walk where before I might take the lift or an escalator.
 
-What's happened is that a side-note in my original blog post ("*…as well as trying my hardest to cycle more.*") has become a rekindled love of mine — I'm cycling multiple times a week and am having a ton of fun doing it, almost to the point where I forgot about the original plan to go snowboarding.
+What's happened is that a side-note in my original blog post ("*…as well as trying my hardest to cycle more.*") has become a rekindled love of mine — I'm cycling multiple times a week and am having a ton of fun doing it, almost to the point where I forgot about the original plan to go snowboarding!
 
 ## Tips: Cycling For Fun ##
 
