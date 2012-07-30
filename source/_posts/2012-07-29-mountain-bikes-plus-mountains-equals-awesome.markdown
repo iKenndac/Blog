@@ -53,7 +53,7 @@ If you're interested in a less editied version, here's a complete run down the s
 
 <iframe width="853" height="480" src="http://www.youtube.com/embed/dxMuzM2qnIk?rel=0" frameborder="0" allowfullscreen></iframe>
 
-## Casulaties ##
+## Casualties ##
 
 Unfortunately, everything has a weakest link. Much like a lower-end MacBook Pro might be held back by a crappy graphics card, my bike's weakest stock component is widely known to be its brakes. Keeping a larger-framed gentleman such as myself in check down mountainsides generates a *lot* of heat, and two days worth of downhill work caused my brakes to start shrieking in pain, vibrating at the exact frequency to send a horrible resonance through my whole bike.
 
