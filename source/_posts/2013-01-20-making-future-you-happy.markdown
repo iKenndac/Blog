@@ -69,7 +69,7 @@ Similar to my previous point, filenames have no hope of being helpful and I neve
 
 ### When did you take the photo? ###
 
-Thankfully, assuming you have your camera's clock set correctly, this is a non-issue. Time and data metadata is already present in my photos. Hooray!
+Thankfully, assuming you have your camera's clock set correctly, this is a non-issue. Time and date metadata is already present in my photos. Hooray!
 
 ### Where did you take the photo? ###
 
