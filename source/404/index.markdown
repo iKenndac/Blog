@@ -1,10 +1,9 @@
 ---
 layout: page
 title: "404!"
-date: 2011-10-16 14:33
 comments: true
 sharing: true
-footer: true
+footer: false
 ---
 
 Unfortunately, the post you're looking for isn't here, which may be a result of a change in the software used to run my blog. If you've landed here by following a link, please ping me [on Twitter](http://twitter.com/iKenndac) so I can fix it.
