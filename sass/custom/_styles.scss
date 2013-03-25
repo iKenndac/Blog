@@ -78,6 +78,7 @@ body > nav li {
 
 body > nav {
 	@include border-top-radius(.4em);
+	padding-right: 20px;
 }
 
 input.search {
