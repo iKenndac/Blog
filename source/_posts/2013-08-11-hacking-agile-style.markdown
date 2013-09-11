@@ -41,7 +41,7 @@ First, I spent a couple of days in Photoshop making mockups of what I wanted to 
 
 {% img center /pictures/hacking-agile-style/second-sketch.png  %}
 
--> *Originally, the app's controls would flank the image vertically, hiding and showing with a tap* <- 
+-> *Originally, the app's controls would flank the image vertically, hiding and showing with a tap.* <-
 
 However, when I actually imported an image from my camera it was obvious that layout wouldn't work. I then spent a little while figuring out how to best deal with an image with a different aspect ratio to the iPad's screen.
 
@@ -93,11 +93,11 @@ The "single box" method was simpler to implement, and I implemented both the pro
 
 {% img center /pictures/hacking-agile-style/af-contrast.png %}
 
--> *Contrast-detect autofocus was fairly simple to implement, as it's the same on every camera — a single rectangle is defined, which can be moved around the image to define the autofocus area.* <- 
+-> *Contrast-detect autofocus was fairly simple to implement, as it's the same on every camera — a single rectangle is defined, which can be moved around the image to define the autofocus area.* <-
 
 {% img center /pictures/hacking-agile-style/af-phase.png %}
 
--> *Phase-detect autofocus was much harder to implement, mainly due to the focusing point layout — it's different on every camera. My camera only has nine points, but high-end cameras can have many, many more. This means parsing the autofocus info from the camera properly, as it'll have different data in it depending on which camera is used.* <- 
+-> *Phase-detect autofocus was much harder to implement, mainly due to the focusing point layout — it's different on every camera. My camera only has nine points, but high-end cameras can have many, many more. This means parsing the autofocus info from the camera properly, as it'll have different data in it depending on which camera is used.* <-
 
 ## Statistics
 
