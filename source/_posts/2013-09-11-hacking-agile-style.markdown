@@ -3,7 +3,7 @@ author: Daniel Kennett
 layout: post
 slug: hacking-agile-style
 title: "Summer Experiment: Hacking, Agile Style"
-date: 2013-09-11 15:33
+date: 2013-09-11 22:45
 comments: true
 categories:
 - Programming/Work
@@ -117,14 +117,14 @@ The tasks that got completed are as follows:
 
 <table>
 <thead><td>Task</td><td>Estimated </td><td> Actual </td><td> Date Completed</td></thead>
-<tr class="highlight"><td>Live View Image </td><td>0.5</td><td> 0.5 </td><td> 23 July 2013</td></tr>
+<tr class="yellow"><td>Live View Image </td><td>0.5</td><td> 0.5 </td><td> 23 July 2013</td></tr>
 <tr><td>Connect/Disconnect UI</td><td>2 </td><td> 1.5 </td><td> 23 July 2013</td></tr>
-<tr class="highlight"><td>Grid</td><td>0.5 </td><td> 0.5 </td><td> 23 July 2013</td></tr>
+<tr class="yellow"><td>Grid</td><td>0.5 </td><td> 0.5 </td><td> 23 July 2013</td></tr>
 <tr><td>Histogram</td><td>1 </td><td> 1  </td><td> 24 July 2013</td></tr>
 <tr><td>Half/Full Shutter UI</td><td>1 </td><td> 1  </td><td> 25 July 2013</td></tr>
 <tr><td>Property Controls</td><td>2 </td><td> 1  </td><td> 29 July 2013</td></tr>
 <tr><td>Metering</td><td>2 ± 1 </td><td> 1  </td><td> 30 July 2013</td></tr>
-<tr class="highlight"><td>AE Mode Display</td><td>0.5 </td><td> 0.5 </td><td> 30 July 2013</td></tr>
+<tr class="yellow"><td>AE Mode Display</td><td>0.5 </td><td> 0.5 </td><td> 30 July 2013</td></tr>
 <tr><td>Exp. Compensation</td><td>0.5 </td><td> 0.5 </td><td> 30 July 2013</td></tr>
 <tr><td>Live View Focusing</td><td>2 ± 1 </td><td> 2 </td><td> 1 Aug 2013</td></tr>
 </table>
