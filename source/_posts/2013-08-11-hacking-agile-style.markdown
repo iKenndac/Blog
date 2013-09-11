@@ -1,22 +1,25 @@
 ---
+author: Daniel Kennett
 layout: post
+slug: hacking-agile-style
 title: "Summer Experiment: Hacking, Agile Style"
-date: 2013-08-11 15:33
+date: 2013-09-11 15:33
 comments: true
-categories: 
+categories:
+- Programming/Work
 ---
 
 I've been working at Spotify for two and half years now. Previously, I ran my own software company for a number of years. Previously to *that*, I was in full-time education from the age of… well, whatever age you start going to nursery school. 
 
 One big thing I've learned since being at Spotify is actually how to make a **product**. My Computer Science degree taught me how to **write programs**, and from that I went straight into shipping my own software. Honestly, now I've worked at Spotify for a while I realise what a *miracle* it was that we even shipped anything back then, let alone earn enough money to support multiple employees.
 
-## Hackity Hack
+## Taking a Break From Programming? Let's Write a Program! 
 
 Like all good programmers I know, I enjoy working on the odd spare-time project now and then. What typically happens in my case is that I sit down, go "Oh, I know!" and start coding. What I normally end up with is a working application that is *clearly* written by an engineer — it works just fine, but looks like someone fired the AppKit Shotgun at the screen.
 
 The most recent example of this is my new camera. After [writing a blog post](http://ikennd.ac/blog/2013/03/canon-eos-6d-review/) complaining about how it was stupid for having Facebook and Twitter built-in, I set about reverse-ish engineering the protocol it uses[^1] so I could remote control it and download images from the comfort of my chair.
 
-After a couple of weekends with [Wireshark](http://www.wireshark.org) and Xcode, I had an Objective-C framework that had a reasonably complete implementation of the PTP/IP protocol — enough to get and set the various properties of the camera, stream the live view image, perform commands and interact with the filesystem.
+After a couple of weekends with [Wireshark](http://www.wireshark.org) and Xcode, I had an Objective-C framework with a reasonably complete implementation of the PTP/IP protocol — enough to get and set the various properties of the camera, stream the live view image, perform commands and interact with the filesystem.
 
 {% img center /pictures/hacking-agile-style/eostalk-mac-demo.png  %}
 
@@ -26,11 +29,11 @@ After a few weeks of doing basically nothing on the project, I went to WWDC and 
 
 However, wouldn't it be nice to actually make a *product* rather than an engineer's demo project?
 
-## Agile, Bitches
+## Something Something Buzzword Agile
 
-At Spotify, we use Agile. I'm not a die-hard fan of Agile or anything (perhaps it's just our implementation of it), but I do appreciate how it lets you be organised in how you get work done and how it gives you a picture of what's left to do.
+At Spotify, we use [Agile](http://en.wikipedia.org/wiki/Agile_software_development). I'm not a die-hard fan of Agile or anything (perhaps it's just our implementation of it), but I do appreciate how it lets you be organised in how you get work done and how it gives you a picture of what's left to do.
 
-So, during my July vacation I set aside two weeks with the intention of making a little iPad app to remote control my camera. Rather than immediately creating a new project and jumping into code like I normally do, I decided to employ some Agile techniques and use a task board to manage my progress.
+So, during my July vacation I set aside two weeks with the intention of making a little iPad app to remote control my camera. Rather than immediately creating a new project and jumping into code like I normally do, I decided to employ some techniques — some Agile, some plain common sense — to manage my progress.
 
 ### Step 1: Mockups
 
@@ -58,7 +61,7 @@ For this project, I enlisted the help of Tim (pictured above, enjoying a game of
 
 This is basically the "rubber ducking" theory, except that the duck is a potty-mouthed asshole who isn't afraid of hurting your feelings.
 
-### Step 3: Planning
+### Step 3: Planning and Monitoring Tasks
 
 This is the typical Agile stuff — I created a note for each task I needed to do in order to have the application I wanted and placed them on a board with *Waiting*, *Doing* and *Done* columns on it. On each note was an estimate on how long I thought that task would take in days, with a margin of error on tasks I wasn't that sure about — mainly those that involved more protocol reverse-engineering with Wireshark, since I hadn't figured out the advanced focusing and auto exposure parts in the protocol yet.
 
@@ -66,15 +69,15 @@ This is the typical Agile stuff — I created a note for each task I needed to d
 
 Once I'd finished my board, I had between fifteen and twenty-five days worth of work to do in ten days.  Obviously that wasn't going to happen, but it was encouraging that everything that looked like it wouldn't make the cut was an advanced feature rather than core functionality.
 
-### Step 4: Programming, Motherfucker!
+### Step 4: Programming!
 
 *Finally*, after three days of mocking and planning, I pushed "New Project" in Xcode and started coding. This seemed like a lot of honest-to-goodness work for what is supposed to be a fun side-project!
 
-# Two Weeks Later…
+## Two Weeks Later…
 
-First up: It's been a *long* time since I wrote a "proper" application for iOS (my last complete app ran on the original iPhone), and I did everything the new way: it's all Autolayout with roughly half of the constraints done in Interface Builder and the rest in code, and there isn't a `drawRect:` in sight. I had a lot of fun learning about the new stuff in iOS 7!
+As a bit of a side note: It's been a *long* time since I wrote a "proper" application for iOS (my last complete iOS app ran on the original iPhone), and I did everything the new way: it's all Auto Layout with roughly half of the constraints done in Interface Builder and the rest in code, and there isn't a `drawRect:` in sight. I had a lot of fun learning about the new stuff in iOS 7!
 
-But, the golden question is… was adding three days of Agile overhead to plan out what is ostensibly a throwaway side project worth it? Without it, I'd have had thirteen days to code instead of ten, and as a programmer I enjoy coding a lot more than I do planning and drawing boxes in Photoshop.
+But, the golden question is… was adding three days of overhead to plan out what is ostensibly a throwaway side project worth it? Without it, I'd have had thirteen days to code instead of ten, and as a programmer I enjoy coding a lot more than I do planning and drawing boxes in Photoshop.
 
 The answer, much to my surprise, is an unreserved YES.
 
@@ -84,7 +87,7 @@ I greatly enjoyed the sense of progress moving notes across the board gave, espe
 
 ### The Board is the Truth
 
-Those little sticky notes really stop you from cutting corners, and cutting corners is what differentiates a hacky side-project from a polished product. For example, one of the most challenging things I encountered in the project was decoding the proprietary autofocus information the camera gives to you. There are two main modes, one of which involves the user moving a single box around the screen and having the camera autofocus in that, the other of which user choses from a set of fixed points that correspond to dedicated autofocus sensors in the camera.
+Those little sticky notes really stop you from cutting corners, and cutting corners is what differentiates a hacky side-project from a polished product. For example, one of the most challenging things I encountered in the project was decoding the proprietary autofocus information the camera gives over PTP/IP. There are two main modes, one of which involves the user moving a single box around the screen and having the camera autofocus in that, the other of which user choses from a set of fixed points that correspond to dedicated autofocus sensors in the camera.
 
 The "single box" method was simpler to implement, and I implemented both the protocol work and the UI for it in a day. At this point I was tempted to move on to something else — I mean, you could control focusing now, right? — and without that sticky note on my board I would have done so. After a bit of convincing by Tim, I just couldn't bring myself to lie to my board and I spent two days implementing the other autofocus method. I'm *really* glad I did, because I had a ton of fun and ended up with a much more polished product. 
 
@@ -96,7 +99,7 @@ The "single box" method was simpler to implement, and I implemented both the pro
 
 -> *Phase-detect autofocus was much harder to implement, mainly due to the focusing point layout — it's different on every camera. My camera only has nine points, but high-end cameras can have many, many more. This means parsing the autofocus info from the camera properly, as it'll have different data in it depending on which camera is used.* <- 
 
-# Statistics
+## Statistics
 
 By the end of the two weeks, my application was in a state in which I could use it to take a photo of the board!
 
@@ -114,21 +117,21 @@ The tasks that got completed are as follows:
 
 <table>
 <thead><td>Task</td><td>Estimated </td><td> Actual </td><td> Date Completed</td></thead>
-<tr><td>[+] Live View Image </td><td>0.5</td><td> 0.5 </td><td> 23 July 2013</td></tr>
+<tr class="highlight"><td>Live View Image </td><td>0.5</td><td> 0.5 </td><td> 23 July 2013</td></tr>
 <tr><td>Connect/Disconnect UI</td><td>2 </td><td> 1.5 </td><td> 23 July 2013</td></tr>
-<tr><td>[+] Grid</td><td>0.5 </td><td> 0.5 </td><td> 23 July 2013</td></tr>
+<tr class="highlight"><td>Grid</td><td>0.5 </td><td> 0.5 </td><td> 23 July 2013</td></tr>
 <tr><td>Histogram</td><td>1 </td><td> 1  </td><td> 24 July 2013</td></tr>
 <tr><td>Half/Full Shutter UI</td><td>1 </td><td> 1  </td><td> 25 July 2013</td></tr>
 <tr><td>Property Controls</td><td>2 </td><td> 1  </td><td> 29 July 2013</td></tr>
 <tr><td>Metering</td><td>2 ± 1 </td><td> 1  </td><td> 30 July 2013</td></tr>
-<tr><td>[+] AE Mode Display</td><td>0.5 </td><td> 0.5 </td><td> 30 July 2013</td></tr>
+<tr class="highlight"><td>AE Mode Display</td><td>0.5 </td><td> 0.5 </td><td> 30 July 2013</td></tr>
 <tr><td>Exp. Compensation</td><td>0.5 </td><td> 0.5 </td><td> 30 July 2013</td></tr>
 <tr><td>Live View Focusing</td><td>2 ± 1 </td><td> 2 </td><td> 1 Aug 2013</td></tr>
 </table>
 
-I did twelve estimated days worth of work in nine actual days, and I either estimated tasks correctly or overestimated how long they'd take. The three tasks I did added up to one and a half days, and they're highlighted yellow above.
+I did twelve estimated days worth of work in nine actual days, and I either estimated tasks correctly or overestimated how long they'd take. The three tasks I did added up to one and a half days, and they're highlighted in the table above.
 
-# Conclusion
+## Conclusion
 
 I actually like Agile in this setting a *lot* more than I do at work. I get to reap the benefits of organising my work without the tedium of the bureaucracy that you encounter in multiple-person teams of people you're contractually obliged to be nice to. This really shows in my output — the app I've made is really going in the direction a real product might, and if I decide I'd like to put this on the App Store I can just pick it up and keep going without having to go back and fill in all the shortcuts I would've made in a typical side project.
 
