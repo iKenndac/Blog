@@ -17,7 +17,7 @@ One big thing I've learned since being at Spotify is actually how to make a **pr
 
 Like all good programmers I know, I enjoy working on the odd spare-time project now and then. What typically happens in my case is that I sit down, go "Oh, I know!" and start coding. What I normally end up with is a working application that is *clearly* written by an engineer — it works just fine, but looks like someone fired the AppKit Shotgun at the screen.
 
-The most recent example of this is my new camera. After [writing a blog post](http://ikennd.ac/blog/2013/03/canon-eos-6d-review/) complaining about how it was stupid for having Facebook and Twitter built-in, I set about reverse-ish engineering the protocol it uses[^1] so I could remote control it and download images from the comfort of my chair.
+The most recent example of this is my new camera. After [writing a blog post](http://ikennd.ac/blog/2013/03/canon-eos-6d-review/) complaining about how it was stupid for having Facebook and Twitter built-in, I set about sort of reverse-ish engineering the protocol it uses so I could remote control it and download images from the comfort of my chair. The protocol is PTP over IP — PTP is a documented standard, and the "over IP" part is pretty standard too, which is why I hesitate to say I reverse-engineered the protocol. However, the proprietary extensions added by Canon are largely undocumented, which is where I've added new knowledge to the area.
 
 After a couple of weekends with [Wireshark](http://www.wireshark.org) and Xcode, I had an Objective-C framework with a reasonably complete implementation of the PTP/IP protocol — enough to get and set the various properties of the camera, stream the live view image, perform commands and interact with the filesystem.
 
@@ -136,7 +136,3 @@ I did twelve estimated days worth of work in nine actual days, and I either esti
 I actually like Agile in this setting a *lot* more than I do at work. I get to reap the benefits of organising my work without the tedium of the bureaucracy that you encounter in multiple-person teams of people you're contractually obliged to be nice to. This really shows in my output — the app I've made is really going in the direction a real product might, and if I decide I'd like to put this on the App Store I can just pick it up and keep going without having to go back and fill in all the shortcuts I would've made in a typical side project.
 
 Most importantly, though: I had a *lot* of fun doing this — in fact, more than I normally do when working on side projects in a concentrated manner like this. Having mockups to work from and a visualisation of your progress made this project an absolute blast for me.
-
-
-
-[^1]: The protocol is PTP over IP. PTP is a documented standard, and the "over IP" part is pretty standard too, so I hesitate to say I reverse-engineered the protocol. However, the proprietary extensions added by Canon are largely undocumented, and this is where I've added new knowledge to this area.
