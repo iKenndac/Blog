@@ -105,7 +105,7 @@ By the end of the two weeks, my application was in a state in which I could use 
 
 [{% img center http://pcdn.500px.net/42924784/6be6fdb82a60a51a09e5643bc95b528354e781da/4.jpg  %}](http://500px.com/photo/42924784)
 
--> *Cheezy action-shot…* <-
+-> *Cheesy action-shot…* <-
 
 [{% img center http://pcdn.500px.net/42924748/08736d1fb24a5dd106c8b0cfc7075cc90baeb2e8/4.jpg  %}](http://500px.com/photo/42924748)
 
