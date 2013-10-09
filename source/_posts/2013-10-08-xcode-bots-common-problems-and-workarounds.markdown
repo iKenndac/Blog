@@ -46,7 +46,7 @@ If you host your repository on GitHub or similar, you're likely to use an SSH ke
  
 {% img center /pictures/bots/success.png  %}
  
- 8) File a Radar asking Apple to add the *SSH Key* authentication option to Xcode itself.
+ 8) File a Radar asking Apple to add the *SSH Key* authentication option to Xcode itself. Feel free to duplicate mine: [#15184645: Bots: Can't enter an SSH Key to authenticate a repository in Xcode](http://www.openradar.me/15184645).
  
  It's worth noting that you can make this process slightly simpler by manually adding the repository to the Xcode service in the *Server* app before creating your Bot. This way, you can set up your SSH keys right away. Make sure, however, that you get the URL of the repository to match the URL you have checked out on your local machine, otherwise Xcode won't pick it up.
  
@@ -80,7 +80,7 @@ To fix this, you need to get back on a branch. The quickest, hackiest way to do 
 
 **Note:** I've noticed that Xcode 5.0.1 doesn't seem to refresh branch information quickly. Try relaunching Xcode if things get weird. 
 
-Don't forget to file a Radar!
+Don't forget to file a Radar! Again, feel free to duplicate mine: [#15184702: Bots: Checkout failure in git projects that have submodules with a detached HEAD](http://www.openradar.me/15184702).
  
 ## I made a mistake and now I can't fix the repository from Xcode!
 
@@ -90,4 +90,6 @@ If you accidentally added a Bot with incorrect authentication details or some ot
 
 Despite these niggles, I really love Continuous Integration and Bots. I'll try to update this post as I find more issues, and hopefully as the Bots feature matures and these issues go away. [Follow me on Twitter](http://twitter.com/iKenndac) to get update announcements.
 
- 
+## Updates
+
+* October 9th, 2013: Added Radar bug numbers for SSH keys and submodules.
