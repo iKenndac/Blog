@@ -109,7 +109,17 @@ table {
   margin-bottom: 25px;
 }
 
-table th, table td {
+table th {
+	border-width: 1px;
+	border-color: #e7e3e7;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-style: solid;
+	font-weight: bold;
+	background: url("/images/noise.png?1330434582") repeat scroll left top #f7f3f7;
+}
+
+table td {
   border-style:dashed;
   border-width:1px;
   border-color:#e7e3e7;
