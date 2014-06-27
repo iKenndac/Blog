@@ -7,7 +7,7 @@ status: publish
 title: 'An Eternal Headache: Core Data, Undo and Files'
 wordpress_id: '450'
 categories:
-- Programming/Work
+- Programming-Work
 ---
 
 Core Data is awesome. One of the most awesome things about it is that

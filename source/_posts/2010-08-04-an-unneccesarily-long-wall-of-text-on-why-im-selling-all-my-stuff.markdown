@@ -7,7 +7,7 @@ status: publish
 title: An Unneccesarily Long Wall Of Text On Why I'm Selling All My Stuff
 wordpress_id: '582'
 categories:
-- Programming/Work
+- Programming-Work
 - Sweden
 ---
 

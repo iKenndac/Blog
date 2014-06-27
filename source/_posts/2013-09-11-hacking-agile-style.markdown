@@ -6,7 +6,7 @@ title: "Summer Experiment: Hacking, Agile Style"
 date: 2013-09-11 22:45
 comments: true
 categories:
-- Programming/Work
+- Programming-Work
 ---
 
 I've been working at Spotify for two and half years now. Previously, I ran my own software company for a number of years. Previously to *that*, I was in full-time education from the age of… well, whatever age you start going to nursery school. 

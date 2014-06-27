@@ -6,7 +6,7 @@ slug: making-your-unit-tests-awesome
 date: 2012-05-22 18:15
 comments: true
 categories:
-- Programming/Work
+- Programming-Work
 ---
 
 This blog has had far too much content about cycling and getting fit and other boring stuff like that. It's time to return the blog to it's roots — doing dumb stuff with computers!
