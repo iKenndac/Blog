@@ -85,7 +85,7 @@ To reiterate my disclaimer above, I'm not going to go into detail about the exac
 
 The **Small Project** is a small Objective-C Mac app that contains 3 targets, all of which are dependencies of the main application and are built as part of a normal build. It contains some C++ code in the form of a third-party open source library, and has a nice and simple build process — open Xcode, push build.
 
-The **Large Project** is a large iOS app that contains over 100 targets, most of which are dependencies of the main application and are built as part of a normal build. Some targets are heavily or completely C++-based, and the project has a very complex build process involving a wide variety of tools and build scripts in various languages.
+The **Large Project** is a large iOS app that contains over 100 targets, most of which are dependencies of the main application and are built as part of a normal build. Some targets are heavily or completely C++ based, and the project has a very complex build process involving a wide variety of tools and build scripts in various languages.
 
 
 ## Benchmarks
