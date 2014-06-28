@@ -12,9 +12,9 @@ On June 10th 2013, I was sitting in the upper floor of Moscone West in San Franc
 
 Roused by a [somehow stirring video](https://www.youtube.com/watch?v=VpZmIiIXuZ0)  of nothing but words and dots, I sat back and let the RDF wash over me. iOS 7 is coming, and it's going to be awesome!
 
-The keynote started as normal. Retail stores. Shipped a quintillion iPhones. Yawn. Craig Federighi started demoing 10.9 Mavericks, which was pretty interesting, but mainly consumer features. I noted a few things that looked particularly interesting and started getting excited about the new APIs that would be coming in Mac OS X.
+The keynote started as normal. Retail stores. Shipped a quintillion iPhones. Yawn. Craig Federighi started demoing 10.9 Mavericks, which was pretty interesting, but the keynote was mainly for demoing consumer features. I noted a few things that looked particularly interesting and started getting excited about the new APIs that would be coming in Mac OS X.
 
-Then, Phil Schiller came onstage. I've had a soft spot for Schiller ever since he pretended to be on a rollercoaster during a keynote demoing iChat video effects years ago, and I always mentally shout "PHIL!!!" when he comes onstage, but I don't really know why. Then, Macbook Airs. Zzz.
+Then, Phil Schiller came onstage. I've had a soft spot for Schiller ever since he pretended to be on a roller coaster while demoing iChat video effects during a keynote years ago, and I always mentally shout "PHIL!!!" when he comes onstage, but I don't really know why. Phil started talking about minor bumps to Macbook Airs. Zzzzzz.
 
 Wait, what's this? Sneak peek of new Mac hardware? Finally, the new Mac Pro! Everyone cheers. I cheer. I feel a little bit sad that now the iMacs are powerful enough for everything I need I can't justify the expense of a Mac Pro any more, but I'm excited. "We're going to go a little over the top…" says Phil.
 
@@ -26,7 +26,7 @@ Oh no. No no no no no.
 
 It's *small*.
 
-"Can't innovate any more, my ass." Phil quipped, a smile on this face giving a way a sense of genuine pride.
+"Can't innovate any more, my ass!" Phil quipped, a smile on this face giving a way a sense of genuine pride. In seconds the non-annoucment had turned into a full-on discussion of the new machine.
 
 {% img center /pictures/mac-pro/PHIL!!.jpg %}
 
@@ -34,7 +34,9 @@ Phil started talking about the design. He got to "Unified Thermal Core" and I wa
 
 You see, I have a special bond with the G4 Cube. It was my first "real" Mac, and my mother bought it for me when I was a kid. I admired the beauty of the engineering of that machine. I learned to program on that machine. I cycled six miles to my local Mac reseller the day Mac OS X 10.0 came out and excitedly cycled home in the rain to install it on that machine. I've had many Macs since, but none had the soul and beauty of the G4 Cube. Coupled with a pile of nostalgic memories, I loved that machine so much I still have one to this day.
 
-[Photo of Mac Pro and Cube together]
+{% img center http://ppcdn.500px.org/75069525/c2db588f741787a71e06c1655dd1b7974a68592e/4.jpg %}
+
+->*Generation Gap*<-
 
 Well, that was it. There is no way I couldn't have one. I let my fiancée know the bad news, then tweeted what I thought was a fun but stupid screenshot of our conversation in what turned out to be my most popular tweet of all time.
 
@@ -55,11 +57,12 @@ Now, time to retroactively justify spending so much money on a computer!
 Let's begin by discussing what I'm working with. First, the hardware. I'll mainly be comparing the Mac Pro with my work-provided 15" Retina MacBook Pro since they're the two machines I have access to, and my wife won't let me fill up her iMac with my crap (which, to be fair, is probably a wise choice).
 
 <table>
-<thead><td> </td><td>2013 Mac Pro</td><td>2013 15" MacBook Pro with Retina Display</td></thead>
+<thead><td> </td><td>2013 Mac Pro</td><td>2013 15" Retina MacBook Pro</td></thead>
 <tr><th>CPU</th><td>3.5 GHz 6-Core Intel Xeon E5</td><td>2.7GHz 4-Core Intel Core i7 "Ivy Bridge"</td></tr>
 <tr><th>RAM</th><td>32GB 1867 MHz DDR3 ECC</td><td>16GB 1600 MHz DDR3</td></tr>
 <tr><th>Graphics</th><td>Dual FirePro D700 6GB</td><td>NVIDIA GeForce GT 650M 1GB</td></tr>
 <tr><th>Storage</th><td>1TB PCI-E SSD</td><td>256GB PCI-E SSD</td></tr>
+<tr><th>Specced Price</th><td>$5,799 / £4,739 / €5,199 (DE/FR)</td><td>$2,799 / £2,399 / €2,799 (DE/FR)</td></tr>
 </table>
 
 As for coding projects, I deal with a number of projects both at work and personally as side projects. Of these, I've chosen two of them to use in this review — for simplicity's sake, I'll call them **Large Project** and **Small Project**.
@@ -72,10 +75,11 @@ To reiterate my disclaimer above, I'm not going to go into detail about the exac
 <thead><td> </td><td>Small Project</td><td>Large Project</td></thead>
 <tr><th>Derived Data*</th><td>150MB</td><td>3.98GB</td></tr>
 <tr><th>Debug Binary Size**</th><td>2MB</td><td>105MB</td></tr>
-<tr><th>No. of Source Files</th><td>45 Obj-C <code>.m</code> files, 30 C++ <code>.cpp</code> files</td><td>I have absolutely no idea. A <em>lot</em>.</td></tr>
+<tr><th>No. of Source Files</th><td>45 Obj-C <code>.m</code>, 30 C++ <code>.cpp</code></td><td>I have no idea. A <em>lot</em>.</td></tr>
+<tr><th>Benchmarked SDK & Architecture</th><td>Mac OS X 10.9 (x86_64)</td><td>iOS 7.1 Simulator (i386)</td></tr>
 </table>
 
-**\*** Derived Data size measured by deleting the existing Derived Data folder, opening the project and doing a single debug build for a single architecture, then waiting for Xcode's indexing process to complete.
+**\*** A project's "Derived Data" is a collection of files generated by Xcode while indexing and building a project. It contains object files, indexes, build logs and various other files that allow Xcode to cache unchanged parts of a project for faster incremental building. The size was measured by deleting the project's existing Derived Data folder, opening the project and doing a single debug build for a single architecture, then waiting for Xcode's indexing process to complete.
 
 **\*\*** Debug binary only, no resources, for a single architecture.
 
@@ -88,9 +92,15 @@ The **Large Project** is a large iOS app that contains over 100 targets, most of
 
 Alright, let's get down to some benchmarking!
 
+{% img center no-border /pictures/mac-pro/clang.png %}
+
+->*Build* all *the things! Activity Monitor wasn't running during benchmark runs, but typical day-to-day apps were (email, Safari, Twitter, etc) to reflect a "normal" environment.*<-
+
 Since my Mac Pro has 32GB of RAM, I also benchmarked building the projects while using a RAM disk for Xcode's Derived Data folder. I didn't do this on the MacBook as 16GB isn't enough to do this with the Large Project.
 
-The builds had some Xcode debug build time optimisations applied as described [over here](: http://labs.spotify.com/2013/11/04/shaving-off-time-from-the-ios-edit-build-test-cycle/), and are all debug builds for a single architecture.
+*Sidebar: If you're a developer reading this, I made a little command-line tool that simplifies the process of creating a RAM disk, designed to be friendly to being run at startup. You can find it [over on my GitHub pages](https://github.com/iKenndac/create-ram-disk).*
+
+The builds had some Xcode debug build time optimisations applied as described [over here](http://labs.spotify.com/2013/11/04/shaving-off-time-from-the-ios-edit-build-test-cycle/), and are all debug builds for a single architecture.
 
 <table>
 <thead><td> </td><td>Small Project</td><td>Large Project</td></thead>
@@ -99,19 +109,25 @@ The builds had some Xcode debug build time optimisations applied as described [o
 <tr><th>Mac Pro (RAM Disk)</th><td>5 seconds</td><td>3 minutes, 40 seconds</td></tr>
 </table>
 
-Charts!
+{% img center /pictures/mac-pro/Graph-Small.png 720 %}
 
-[charts]
+{% img center /pictures/mac-pro/Graph-Large.png 720 %}
 
-As you can see, the Mac Pro builds projects around a third faster than my MacBook Pro, which, in itself, isn't all that surprising. With the Derived Data folder placed on a RAM disk, the Mac Pro is 40% faster than the MacBook Pro.
+As you can see, the Mac Pro builds projects around a third faster than my MacBook, which, in itself, isn't all that surprising. With the Derived Data folder placed on a RAM disk, the Mac Pro is 40% faster than the MacBook.
 
-One nice thing to note is that while doing these benchmarks, I had all six cores of the machine pegged at 100% for towards an hour. During that time, the fans of the Mac Pro barely made a whisper — a welcome change from the screaming fans of the MacBook Pro.
+One nice thing to note is that while doing these benchmarks, I had all six cores of the machine pegged at 100% for towards an hour. During that time, the fans of the Mac Pro barely made a whisper — a welcome change from the screaming fans of the MacBook.
+
+### A Note On Release Builds
+
+I considered doing benchmarks using release builds as they'll be slower as optimisation is CPU-intensive, and if you're building for multiple architectures build time will *almost* increase linearly (around twice as long for two architectures, three times as long for three, etc). As a rough guide, a typical release build for an iOS app that supports both `arm64` (iPhone 5S and iPad Air) and `armv7` (everything else at the time of writing) will take roughly 2.5x as long as a single-architecture debug build.
+
+However, this review is focusing on a developer's day-to-day workflow rather than build server duties. However, I did do a couple of release builds of the Large Project, and you can expect speedup to be similar to that of debug builds.
 
 ## Day-To-Day Workflow in Xcode
 
-*This* is where things get interesting. Clean builds only tell a small portion of the story — day-to-day, clean builds are somewhat of a rarity. Instead, we make many small incremental builds and we write some code, make sure it builds, then test the changes out by running the application or running unit tests.
+*This* is where things get interesting. Clean builds only tell a small portion of the story — day-to-day, clean builds are somewhat of a rarity. Instead, we make many small incremental builds as we write some code, make sure it builds, then test the changes out by running the application or running unit tests.
 
-My MacBook Pro is my daily work machine, and we've been at each other's side for a year or so now. I know it in and out, and until I started working on the Large Project with my Mac Pro, it felt fine.
+My MacBook is my daily work machine, and we've been at each other's side for a year or so now. I know it in and out, and until I started working on the Large Project with my Mac Pro, it felt fine.
 
 A typical small task I might do involves finding a file, opening it up and finding the method I need to work on. Then, I'll need to quickly look up the API reference of something I need to add to that method, then write the new code and test it.
 
@@ -127,7 +143,11 @@ It goes like this:
 * Close the Assistant Editor.
 * Run the application and test the new code.
 
-After a week using the Mac Pro, I tried this again on my MacBook.
+{% img center no-border /pictures/mac-pro/OpenQuickly.png %}
+
+->*Xcode's "Open Quickly" panel*<-
+
+After a week using the Mac Pro and doing this regularly, I tried it again on my MacBook.
 
 * `Command-Shift-O` to open "Open Quickly".
 * Start typing the class name `HTTPIma…`.
@@ -146,27 +166,33 @@ After a week using the Mac Pro, I tried this again on my MacBook.
 * 5 seconds later, the Assistant Editor disappears.
 * Run the application and test the new code.
 
-My MacBook can't *possibly* be this bad, can it? After working on the MacBook Pro for a few hours, I got used to it again and realised that it didn't seem slow before because I'd briefly do something else while waiting for Xcode to catch up — glance at Twitter, take a sip of my drink, etc.
+My MacBook can't *possibly* be this bad, can it? After working on the MacBook for a few hours, I got used to it again and realised that it didn't seem slow before because I'd briefly do something else while waiting for Xcode to catch up — glance at Twitter, take a sip of my drink, etc.
 
-My *whole* Xcode experience is like this on my MacBook Pro with the Large Project. Getting to the Build Settings pane from a source editor takes a good few seconds as it takes time to bring up each new panel as you navigate there. After a year of nothing else I'd gotten so used to it I didn't even notice it any more.
+My *whole* Xcode experience is like this on my MacBook with the Large Project. Getting to the Build Settings pane from a source editor takes a good few seconds as it takes time to bring up each new panel as you navigate there. After a year of nothing else I'd gotten so used to it I didn't even notice it any more.
 
-I've found this week with my Mac Pro to be *far* more productive than working with my MacBook Pro. It may partly be due to the fact I'm also working from home, away from the distractions and annoyances of the office, but the fact I don't have time to glance at Twitter or sip my drink as I navigate around certainly helps keep my concentration sharp.
+I've found this week with my Mac Pro to be *far* more productive than working with my MacBook. It may partly be due to the fact I'm also working from home, away from the distractions and annoyances of the office, but the fact I don't have time to glance at Twitter or sip my drink as I navigate around certainly helps keep my concentration sharp.
 
-It's important to note that only the Large Project makes my MacBook Pro behave this way. Working on smaller projects, including work projects *much* larger than the Small Project I talk about here, the Xcode experience is as fast and painless as it is on the Mac Pro.
+It's important to note that only the Large Project makes my MacBook behave this way. Working on smaller projects, including work projects *much* larger than the Small Project I talk about here, the Xcode experience is as fast and painless as it is on the Mac Pro.
 
 ## Day-To-Day Workflow in Other Development Tasks
 
 I don't really use huge datasets in anything other than Xcode, so nothing surprising here. `grep` is noticeably faster on the awesome SSD, as is switching around branches.
 
-One thing that *is* nice is the ability to run several Virtual Machines at once without having to care about system resources. This is particularly nice when testing features that involve remote controlling — I can have multiple iOS Simulators running at once without problems.
+One thing that *is* nice is the ability to run several virtual machines at once without having to care about system resources. This is particularly handy when testing features that involve remote controlling — I can have multiple iOS Simulators running at once without problems.
 
 
 ## Conclusion
 
-If you have a reasonably modern, well-specced machine and are bumping into its limits, the Mac Pro gives a surprising amount of extra freedom that I didn't expect. My MacBook Pro isn't a bad machine at all, and I just assumed the large project I work with would bring Xcode to its knees on anything. I've felt a genuinely large improvement to my day-to-day productivity on the Mac Pro, to the point where working on my MacBook Pro feels clunky and annoying.
+If you have a reasonably modern, well-specced machine and are bumping into its limits, the Mac Pro gives a surprising amount of extra freedom that I didn't expect. My MacBook isn't a bad machine at all, and I just assumed the large project I work with would bring Xcode to its knees on anything. I've felt a genuinely large improvement to my day-to-day productivity on the Mac Pro, to the point where working on my MacBook feels clunky and annoying.
 
 If your current workload is bringing your computer to a grinding halt, you might find the Mac Pro gives a refreshing freedom to your day-to-day workflow. If that's the case, I'd really recommend it.
 
-Otherwise, I'd really struggle to justify the cost purely on a development basis and have a really hard time imagining an indie developer or someone part of a small development shop generating a project large enough to see the benefits — especially since the newer iMacs and MacBook Pros are excellent development machines and give a great price:performance ratio.
+Otherwise, I'd really struggle to justify the cost purely on a development basis and have a really hard time imagining an indie developer or small development shop generating a project large enough to see the benefits — especially since the newer iMacs and MacBook Pros are excellent development machines and give a great price-performance ratio.
 
-In short, if you have a modern machine and aren't already thinking "I *really* need something more powerful than this", the Mac Pro is really hard to justify. Unless you loved the G4 Cube — then you should buy one anyway.
+In short, if you have a modern machine and aren't already thinking "I *really* need something more powerful than this", the Mac Pro is really hard to justify.
+
+Unless you loved the G4 Cube — then you should buy one anyway, because the G4 Cube was *awesome*.
+
+{% img center no-border /pictures/mac-pro/i-heart-cores.png 539 %}
+
+Perhaps I should get that printed on a mug.
