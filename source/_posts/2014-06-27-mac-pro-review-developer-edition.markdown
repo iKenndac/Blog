@@ -2,7 +2,7 @@
 author: Daniel Kennett
 layout: post
 title: "2013 Mac Pro Review: Developer Edition"
-date: 2014-06-27 22:38
+date: 2014-07-19 23:00
 comments: true
 categories:
 - Programming-Work
