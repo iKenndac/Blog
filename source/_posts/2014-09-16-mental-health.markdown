@@ -126,7 +126,7 @@ When I think back to the six month period between late 2013 and early 2014, my m
 
 It's slowly getting better. Occasionally I'll be taken by surprise as an otherwise innocuous comment manages to sting way more than it should, but those are getting rarer and I'm able to shake them off in a few moments.
 
-I'm very luck, though. By some absolute miracle, a wonderful manager noticed I was in trouble and led me to an incredible doctor who taught me how to identify when I might be having trouble and the steps I can take to mitigate the problems. I avoided depression. Just. Really, by the skin of my teeth.
+I'm very lucky, though. By some absolute miracle, a wonderful manager noticed I was in trouble and led me to an incredible doctor who taught me how to identify when I might be having trouble and the steps I can take to mitigate the problems. I avoided depression. Just. Really, by the skin of my teeth.
 
 When Robin Williams committed suicide, I read the same thought over and over again — what could someone so successful and wealthy possibly be so sad about?
 
