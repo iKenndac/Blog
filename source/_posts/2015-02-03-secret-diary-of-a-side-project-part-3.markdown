@@ -2,7 +2,7 @@
 author: Daniel Kennett
 layout: post
 title: "Secret Diary of a Side Project: Cold, Hard Cash"
-date: 2015-02-04 22:30:00 +0100
+date: 2015-02-04 22:10:00 +0100
 comments: true
 categories:
 - Programming-Work
